@@ -1,0 +1,81 @@
+- Ognuno fa un livello 
+
+- SISTEMI e MECCANICHE :
+	- Attacco melee / distanza
+	- Camminata, corsa, salto
+	- AI animali e nemici
+		- Drop cure, munizioni
+	- Raccolta oggetti
+		- Alla Minecraft: ci passi sopra e li raccogli
+	- Inventario
+	- Banco da lavoro
+		- Se hai raccolto materiali necessari, interagisci e ti da la spada
+		- UI per vedere i materiali necessari
+	- Porta 
+		- Sbloccabile con 3 chiavi di colori diversi, vanno cercate nella mappa
+	- Conquista della corona
+		- Bisogna trovare in una stanza nascosta una spada speciale per conquistare la corona dopo aver sbloccato la porta
+	- Sistema di ondate
+		- infinite
+	- Sistema di danno
+		- per agenti AI e giocatore
+ 
+
+- CLASSI :
+	- Classe giocatore 
+		- Con parametri di vita e danno
+		- Input
+	- Classe enemy
+		- Con parametri di vita e danno
+		- Classe Animal
+		- Classe MeleeUnit
+	- Classe enemy Ai controller
+		- Gestisce movimento del nemico
+	- Classe Behavior Tree
+		- State machine
+	- Classe Blackboard
+		- Per il ReadWrite di variabili per la state machine
+	- Classe Oggetto generale
+		- Classe cura
+		- Classe spada
+		- Classe pietra
+		- Classe Chiave
+			- Rossa
+			- Verde
+			- Blu
+	- Classe Banco da lavoro
+	- Classe Porta 
+	- Classe Corona
+	- Classe SpawnManager
+	- Classe Inventario : [C++]
+
+
+
+- DIVISIONE LAVORI : 
+	- GIUSEPPE : 
+		- Classe enemy
+			- Con parametri di vita e danno
+			- Classe Animal
+			- Classe MeleeUnit 
+		- Classe enemy Ai controller
+			- Gestisce movimento del nemico
+		- Classe Behavior Tree
+			- State machine
+		- Classe Blackboard
+			- Per il ReadWrite di variabili per la state machine
+		- Classe Porta 
+		- Classe Corona
+		- Classe SpawnManager
+		- Livello Castello
+			- Ricerca Asset
+
+	- NICOLO' : 
+		- Classe giocatore 
+			- Con parametri di vita e danno
+			- Input
+		- Classe Banco da lavoro
+		- Classe Oggetto
+		- Classe Inventario : [C++]
+	
+	- Due progetti separati, si uniscono dopo
+
