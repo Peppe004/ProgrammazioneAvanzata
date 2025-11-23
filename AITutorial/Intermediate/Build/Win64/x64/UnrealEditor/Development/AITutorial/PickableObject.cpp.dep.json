@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\private\\pickableobject.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\aitutorialeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aitutorial\\definitions.aitutorial.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\public\\pickableobject.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\aitutorial\\uht\\pickableobject.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

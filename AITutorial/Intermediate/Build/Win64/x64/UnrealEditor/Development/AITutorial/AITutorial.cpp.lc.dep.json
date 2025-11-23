@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\aitutorial.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\aitutorialeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aitutorial\\definitions.aitutorial.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\aitutorial.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

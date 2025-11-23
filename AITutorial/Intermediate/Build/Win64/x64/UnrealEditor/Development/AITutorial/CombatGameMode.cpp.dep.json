@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\variant_combat\\combatgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\aitutorialeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aitutorial\\definitions.aitutorial.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\source\\aitutorial\\variant_combat\\combatgamemode.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\game development\\unreal projects\\aitutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\aitutorial\\uht\\combatgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
