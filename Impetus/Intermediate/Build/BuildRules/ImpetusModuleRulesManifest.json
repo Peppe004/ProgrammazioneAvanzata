@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Progetti unreal\\Impetus\\Source\\Impetus\\Impetus.Build.cs",
+		"D:\\Progetti unreal\\Impetus\\Source\\Impetus.Target.cs",
+		"D:\\Progetti unreal\\Impetus\\Source\\ImpetusEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Impetus.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\ImpetusEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\Impetus.init.gen.cpp.obj"
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\MyPlayer.gen.cpp.obj"
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\Impetus.cpp.obj"
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\MyPlayer.cpp.obj"
+"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\Default.rc2.res"
+/OUT:"D:\Progetti unreal\Impetus\Intermediate\Build\Win64\x64\UnrealEditor\Development\Impetus\UnrealEditor-Impetus.lib"
