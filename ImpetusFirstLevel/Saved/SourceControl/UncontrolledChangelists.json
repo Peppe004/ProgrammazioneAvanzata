@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Changelist non controllate predefinite",
+			"files": [
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/E/61/5J9Z5NQ8YWB2J8X3VH1L4W.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/B/3R/VOYOPV9FM5H7YGV5AZDQMU.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/B/T8/J583EUWRCXYWIESMBT5ZX2.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/D/JC/KOCXRZ5SLQHULGLP29CDXN.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/D/TY/BAU2R5T9JB2TPFWZJ6LV9M.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/0/QY/2HPI6TLCUVXWW2DUT8GR0U.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/D/G8/QTP5B8S05XQWEZRI4ZICMD.uasset"
+			]
+		}
+	]
+}

@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.ImpetusFirstLevel.gen.cpp.obj": [
+			"ImpetusFirstLevel.init.gen.cpp.obj",
+			"MyPlayer.gen.cpp.obj"
+		]
 	}
 }
