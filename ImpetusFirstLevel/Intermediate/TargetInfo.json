@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ImpetusFirstLevel",
+			"Path": "..\\Source\\ImpetusFirstLevel.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ImpetusFirstLevelEditor",
+			"Path": "..\\Source\\ImpetusFirstLevelEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

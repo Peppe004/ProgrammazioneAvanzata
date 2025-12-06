@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ImpetusFirstLevel.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ImpetusFirstLevel.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ImpetusFirstLevelEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ImpetusFirstLevel">
+      <UniqueIdentifier>{AE118D7A-3D9C-395F-B1D0-60519D5DB409}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ImpetusFirstLevel\ImpetusFirstLevel.Build.cs">
+      <Filter>Source\ImpetusFirstLevel</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ImpetusFirstLevel\ImpetusFirstLevel.cpp">
+      <Filter>Source\ImpetusFirstLevel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ImpetusFirstLevel\ImpetusFirstLevel.h">
+      <Filter>Source\ImpetusFirstLevel</Filter>
+    </ClInclude>
+    <Filter Include="Source\ImpetusFirstLevel\Private">
+      <UniqueIdentifier>{B6B87AFA-6E44-3E4C-B1DE-18F74E814325}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ImpetusFirstLevel\Private\MyPlayer.cpp">
+      <Filter>Source\ImpetusFirstLevel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ImpetusFirstLevel\Public">
+      <UniqueIdentifier>{6A5F67C9-FB28-32D6-99B3-F05BCA500EF9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ImpetusFirstLevel\Public\MyPlayer.h">
+      <Filter>Source\ImpetusFirstLevel\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
