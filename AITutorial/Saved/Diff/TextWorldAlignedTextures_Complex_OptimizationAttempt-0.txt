@@ -1,0 +1,1763 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="WorldAlignedTextures_Complex_OptimizationAttempt"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObject Name="MaterialExpressionTextureObject_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObject Name="MaterialExpressionTextureObject_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_36"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_35"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_34"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBool Name="MaterialExpressionStaticBool_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_43"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_42"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_41"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_40"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_38"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_37"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_35"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_34"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_39"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_51"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_50"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_49"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_48"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_45"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_44"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_41"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_30"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_38"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_37"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_36"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_35"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAbs Name="MaterialExpressionAbs_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAbs Name="MaterialExpressionAbs_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAbs Name="MaterialExpressionAbs_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="WorldAlignedTextures_Complex_OptimizationAttemptEditorOnlyData"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=-8356
+      MaterialExpressionEditorY=-43
+      MaterialExpressionGuid=7EA9395B49A0B7A0384976BF7CD2E945
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_0"
+      MaterialExpressionEditorX=-6045
+      MaterialExpressionEditorY=1217
+      MaterialExpressionGuid=FD8ABFD54F7E9C0C0FB0E9A40C5317EC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_9"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=1)
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-2742
+      MaterialExpressionEditorY=-826
+      MaterialExpressionGuid=733F83EE49C12EB13C519C8396067211
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_8"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=2)
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-2722
+      MaterialExpressionEditorY=-926
+      MaterialExpressionGuid=347B2C7B4055C1D7E4A8C6B9B4BB46B6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_7"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=3)
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-2740
+      MaterialExpressionEditorY=-1060
+      MaterialExpressionGuid=39F4811C4F93A56B294D0DA26650002B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_20"
+      Input=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_15'")
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-3008
+      MaterialExpressionEditorY=-1640
+      MaterialExpressionGuid=A4D0558D409D1BB37B0626A0ED449926
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_19"
+      Input=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_14'")
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-3022
+      MaterialExpressionEditorY=-1792
+      MaterialExpressionGuid=312C9D2C4C7DE9DAAEA903893479D89C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_18"
+      Input=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_13'")
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-3002
+      MaterialExpressionEditorY=-1892
+      MaterialExpressionGuid=B02F85034CE4B2B16B9A89B9C49EA55D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_17"
+      Input=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_12'")
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-3020
+      MaterialExpressionEditorY=-2026
+      MaterialExpressionGuid=53F9CDE04BA65E85758FFBB55F31F4D6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTransform_10"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'")
+      TransformSourceType=TRANSFORMSOURCE_World
+      TransformType=TRANSFORM_Tangent
+      MaterialExpressionEditorX=-2741
+      MaterialExpressionEditorY=-727
+      MaterialExpressionGuid=94C749D8499366779EC53488B7392B1D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_9"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_0'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_14'")
+      MaterialExpressionEditorX=-6862
+      MaterialExpressionEditorY=870
+      MaterialExpressionGuid=470BFE364D8E9E387996608CFE553A2A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_0'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_0'")
+      MaterialExpressionEditorX=-6865
+      MaterialExpressionEditorY=707
+      MaterialExpressionGuid=976456624C7F2883045799A054919D85
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_4'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_0'")
+      MaterialExpressionEditorX=-6133
+      MaterialExpressionEditorY=117
+      MaterialExpressionGuid=2925D5F7427DC5A5F67D6280F63E7313
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="Y projection"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_12"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_0'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_30'")
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-5720
+      MaterialExpressionEditorY=-1902
+      MaterialExpressionGuid=4EC097A04817D471B667BB9DD93678C3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_11"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_2'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_30'")
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-5730
+      MaterialExpressionEditorY=-2066
+      MaterialExpressionGuid=E6884C85436D6553EA788C900D4E50E8
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_10"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_4'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_30'")
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-5726
+      MaterialExpressionEditorY=-2235
+      MaterialExpressionGuid=1F7A78EE454D38D51771B8AA41DCDB1C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_2'")
+      TextureObject=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_0'")
+      MaterialExpressionEditorX=-6151
+      MaterialExpressionEditorY=378
+      MaterialExpressionGuid=174A144A4239E440F14A23921363C8D2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="X projection"
+   End Object
+   Begin Object Name="MaterialExpressionTextureObject_3"
+      Texture="/Script/Engine.Texture2D'/Engine/EngineMaterials/DefaultNormal_Uncompressed.DefaultNormal_Uncompressed'"
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-6401
+      MaterialExpressionEditorY=-2003
+      MaterialExpressionGuid=2CCA85154C6EBE8B35A59CB581825258
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureObject_0"
+      Texture="/Script/Engine.Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'"
+      MaterialExpressionEditorX=-7578
+      MaterialExpressionEditorY=833
+      MaterialExpressionGuid=211BCA504C30697A43C2BAAF6B81C2AA
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_9"
+      A=(Expression="/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_3'",OutputIndex=4,Mask=1,MaskA=1)
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_18'")
+      MaterialExpressionEditorX=-5423
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=8A50BF404A5ADFBCC945E69358C5A1E3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_7"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_0'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_16'")
+      MaterialExpressionEditorX=-6542
+      MaterialExpressionEditorY=777
+      MaterialExpressionGuid=FF498FBE499AA6D218DA08B301D8BAA8
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="Z projection"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_5"
+      A=(Expression="/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_29'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_7'")
+      MaterialExpressionEditorX=-3737
+      MaterialExpressionEditorY=910
+      MaterialExpressionGuid=C3FFA9D04B3BEF9E0963ADB576A506B6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_4"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_7'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_8'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_4'")
+      MaterialExpressionEditorX=-6027
+      MaterialExpressionEditorY=788
+      MaterialExpressionGuid=4185E58446AE2AE5EF19018C5C36D7DD
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_36"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'")
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_10'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2506
+      MaterialExpressionEditorY=-741
+      MaterialExpressionGuid=AB788B13459459649AE4DFBE91293A1A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_35"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=1)
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_9'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2502
+      MaterialExpressionEditorY=-873
+      MaterialExpressionGuid=9101BEEF406B510FADFF209ED5C1A1B7
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_34"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=2)
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_8'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2498
+      MaterialExpressionEditorY=-1005
+      MaterialExpressionGuid=EC8ABCBA4B2D0993914CB4A06EF3CE62
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_33"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=3)
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_7'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2498
+      MaterialExpressionEditorY=-1138
+      MaterialExpressionGuid=70208D70435CF6BCADA546B87053431C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_3"
+      A=(Expression="/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_0'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_12'")
+      MaterialExpressionEditorX=-7373
+      MaterialExpressionEditorY=357
+      MaterialExpressionGuid=D9C142414A6C70C366104CA1B0AFCD34
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_23"
+      A=(Expression="/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_27'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_7'")
+      MaterialExpressionEditorX=-3740
+      MaterialExpressionEditorY=1052
+      MaterialExpressionGuid=28D5B6F243C488FC5E4842847F39E46E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_22"
+      A=(Expression="/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_29'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_7'")
+      MaterialExpressionEditorX=-3743
+      MaterialExpressionEditorY=1188
+      MaterialExpressionGuid=487671574B3AD97657D0D4B18E2D7EA4
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_20"
+      A=(Expression="/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_4'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_10'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_18'")
+      MaterialExpressionEditorX=-5433
+      MaterialExpressionEditorY=692
+      MaterialExpressionGuid=C9723EF045DA1E9C734C1095712D5306
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_2"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_11'")
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_3'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_4'")
+      MaterialExpressionEditorX=-5437
+      MaterialExpressionEditorY=120
+      MaterialExpressionGuid=8F1D00A74624C0B230B07488F2616C74
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_19"
+      A=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_15'")
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_20'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2786
+      MaterialExpressionEditorY=-1707
+      MaterialExpressionGuid=16D953A34F9743AB75204D957B03394A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_18"
+      A=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_14'")
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_19'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2782
+      MaterialExpressionEditorY=-1840
+      MaterialExpressionGuid=007244B640D3A91D6DB747927839F5AC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_17"
+      A=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_13'")
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_18'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2778
+      MaterialExpressionEditorY=-1971
+      MaterialExpressionGuid=8EF3EABF4E851C11F672C28BAA954237
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_16"
+      A=(Expression="/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_12'")
+      B=(Expression="/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_17'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'")
+      MaterialExpressionEditorX=-2778
+      MaterialExpressionEditorY=-2105
+      MaterialExpressionGuid=17D71D204A6E576133D255BF8F54C10B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_14"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_33'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_19'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_24'")
+      MaterialExpressionEditorX=-1460
+      MaterialExpressionEditorY=-1640
+      MaterialExpressionGuid=1215D8644A801A85237CD4BAB3374C77
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_13"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_34'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_18'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_24'")
+      MaterialExpressionEditorX=-1475
+      MaterialExpressionEditorY=-1802
+      MaterialExpressionGuid=8ACB47794A2C7C7804F331AC3AFF01D2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_12"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_35'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_17'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_24'")
+      MaterialExpressionEditorX=-1471
+      MaterialExpressionEditorY=-1933
+      MaterialExpressionGuid=417805F4428E5B2EBFA8AF9444C758AC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_11"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_36'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_16'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_24'")
+      MaterialExpressionEditorX=-1471
+      MaterialExpressionEditorY=-2067
+      MaterialExpressionGuid=CC3332034C07FE1CFB369395F45BD33E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_10"
+      A=(Expression="/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_0'",OutputIndex=4,Mask=1,MaskA=1)
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_18'")
+      MaterialExpressionEditorX=-5417
+      MaterialExpressionEditorY=548
+      MaterialExpressionGuid=0214E25F48AE3EFB279EC0AF9BFE7734
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_1"
+      A=(Expression="/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_27'")
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_7'")
+      MaterialExpressionEditorX=-3736
+      MaterialExpressionEditorY=771
+      MaterialExpressionGuid=F2DC1CD948B25DD0006B2AB8CAE87AF2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_0"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_9'")
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Value=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_4'")
+      MaterialExpressionEditorX=-5431
+      MaterialExpressionEditorY=251
+      MaterialExpressionGuid=8AE0D7EF47497860930E788A4CE8A899
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_9"
+      MaterialExpressionEditorX=-4760
+      MaterialExpressionEditorY=-700
+      MaterialExpressionGuid=46A55D25404540E4168813BEE64ABCF2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_8"
+      Value=True
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=-780
+      MaterialExpressionGuid=381F7425401C7F407FEBF1BAF6936691
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_6"
+      Value=True
+      MaterialExpressionEditorX=-3600
+      MaterialExpressionEditorY=-1480
+      MaterialExpressionGuid=5FEB71924AFBB68FB1BD57A25094DE19
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_4"
+      MaterialExpressionEditorX=-7637
+      MaterialExpressionEditorY=1080
+      MaterialExpressionGuid=4BA2D2434A56FAD3182593A1DCEC208E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_3"
+      MaterialExpressionEditorX=-6508
+      MaterialExpressionEditorY=563
+      MaterialExpressionGuid=D0AA0C3E40DEB729DADA97B3133CB544
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_2"
+      MaterialExpressionEditorX=-8082
+      MaterialExpressionEditorY=486
+      MaterialExpressionGuid=761FFB3941C901148F8A778AB6748712
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_1"
+      MaterialExpressionEditorX=-5185
+      MaterialExpressionEditorY=1930
+      MaterialExpressionGuid=849DE7C14F66C97B63E74E89D7BC63FD
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionStaticBool_0"
+      MaterialExpressionEditorX=-6627
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=A046AFB442A9318C0022E5B441C48D6C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_2"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_27'",OutputIndex=1)
+      MaterialExpressionEditorX=-4063
+      MaterialExpressionEditorY=1008
+      MaterialExpressionGuid=27CBD6D04D4B53ED792FC88DEE65C361
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_25'",OutputIndex=1)
+      MaterialExpressionEditorX=-4477
+      MaterialExpressionEditorY=802
+      MaterialExpressionGuid=4344D86A41B91C9D907E43812F61A547
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_15"
+      VectorInput=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_19'")
+      MaterialExpressionEditorX=-3286
+      MaterialExpressionEditorY=-1702
+      MaterialExpressionGuid=0D1D464F4CA2A303562E85AAFA212750
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_14"
+      VectorInput=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_16'")
+      MaterialExpressionEditorX=-3267
+      MaterialExpressionEditorY=-1838
+      MaterialExpressionGuid=34C0D1F94D525C87D0D75EB9A9D753DD
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_13"
+      VectorInput=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_17'")
+      MaterialExpressionEditorX=-3265
+      MaterialExpressionEditorY=-1970
+      MaterialExpressionGuid=B0485DD24F770A360D1A079BFE2E2F6A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_12"
+      VectorInput=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_15'")
+      MaterialExpressionEditorX=-3271
+      MaterialExpressionEditorY=-2101
+      MaterialExpressionGuid=A53CBABB433D637019082E9590E3452C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_43"
+      A=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionConstant'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionConstant_7'")
+      MaterialExpressionEditorX=-5420
+      MaterialExpressionEditorY=-1560
+      MaterialExpressionGuid=34121E5D4F8304F60F65C38D0763A103
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_42"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_12'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionConstant3Vector_5'")
+      MaterialExpressionEditorX=-5467
+      MaterialExpressionEditorY=-1850
+      MaterialExpressionGuid=FEF55DC6481633673A9379AE87D6D17C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_41"
+      A=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_10'")
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-7681
+      MaterialExpressionEditorY=361
+      MaterialExpressionGuid=7736B65142202C2F7A23C09082F67E1D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_40"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_12'",OutputIndex=3,Mask=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_37'")
+      MaterialExpressionEditorX=-4686
+      MaterialExpressionEditorY=-1727
+      MaterialExpressionGuid=AE1BF04B4397E294DC73DFB1982456DA
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_38"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_11'",OutputIndex=2,Mask=1,MaskG=1)
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-5476
+      MaterialExpressionEditorY=-1970
+      MaterialExpressionGuid=A1AF46F445680D9656392C8C2279FFEE
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_37"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_11'",OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-5476
+      MaterialExpressionEditorY=-2062
+      MaterialExpressionGuid=6426F0E1456AF6D109A967864206865C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_35"
+      A=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_36'")
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_11'",OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-4761
+      MaterialExpressionEditorY=-1998
+      MaterialExpressionGuid=B4DF654541CAFB5773D25DA97552CCD7
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_34"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_10'",OutputIndex=2,Mask=1,MaskG=1)
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-5491
+      MaterialExpressionEditorY=-2173
+      MaterialExpressionGuid=8092E2EE47F77E95B7A2E992156E6E15
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_33"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_10'",OutputIndex=3,Mask=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_38'")
+      MaterialExpressionEditorX=-4758
+      MaterialExpressionEditorY=-2148
+      MaterialExpressionGuid=1CBBE8F34855A6780E97B99291CCB94E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_32"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_10'",OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-5483
+      MaterialExpressionEditorY=-2280
+      MaterialExpressionGuid=C378A0EF477A8914C4FE188C535AC179
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression="/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_8'")
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-7773
+      MaterialExpressionEditorY=107
+      MaterialExpressionGuid=CA852CDF4355B55C160B90A6C44FD9B3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_39"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.WorldAlignedNormals_HighQuality_optimizationAttempt'"
+      FunctionInputs(0)=(ExpressionInputId=1089E3B342C6E7DE921269A8FC45EE66,Input=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_1'",InputName="Negative World Position Divisor"))
+      FunctionInputs(1)=(ExpressionInputId=078D91D94009D91DB7FFC0845534AC6E,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_3'",InputName="World Position"))
+      FunctionInputs(2)=(ExpressionInputId=A22DF7F341E9D6621E97D6AC3C721B47,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_30'",InputName="Texture"))
+      FunctionInputs(3)=(ExpressionInputId=AC5690BC423EB7711798DB8E9216F906,Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_22'",InputName="Z lerp Alpha"))
+      FunctionInputs(4)=(ExpressionInputId=465633464FF50D9F7CCC9F9F710164C7,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'",InputName="WorldNormal"))
+      FunctionInputs(5)=(ExpressionInputId=F33C618E44CA22473DCFF6930CA2107F,Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_23'",InputName="X lerp alpha"))
+      FunctionInputs(6)=(ExpressionInputId=4FAA6B10442599647C67369E61AC29C1,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_22'",InputName="Optimize (See Comment)"))
+      FunctionOutputs(0)=(ExpressionOutputId=3DFEE94A405597539148C8938B312E55,Output=(OutputName="World Space Normals XYZ"))
+      FunctionOutputs(1)=(ExpressionOutputId=F2A57DCC466DB3961AFD3EABD9DBC795,Output=(OutputName="XY Flat Top Projection World Space Normals"))
+      FunctionOutputs(2)=(ExpressionOutputId=C0E8A1A6472086EFE55440BD14C9F359,Output=(OutputName="XY Projection World Space Normals"))
+      FunctionOutputs(3)=(ExpressionOutputId=509C4C864C61D4EA7801529FDB3C5C15,Output=(OutputName="Z Projection World Space Normals"))
+      FunctionOutputs(4)=(ExpressionOutputId=60AB315A4F3D869DD1504992A49C11E6,Output=(OutputName="UV2"))
+      FunctionOutputs(5)=(ExpressionOutputId=532EBCED4FAC607101DB9480C9E9DAE0,Output=(OutputName="UV3"))
+      FunctionOutputs(6)=(ExpressionOutputId=A73BB9B849E600EF109E9E8B26FE06EC,Output=(OutputName="UV4"))
+      FunctionOutputs(7)=(ExpressionOutputId=B2A0AC5544A72307289046800DFC8BD0,Output=(OutputName="UV5"))
+      FunctionOutputs(8)=(ExpressionOutputId=BD37550A4349E7CC898EDCA8FC8E9FAB,Output=(OutputName="UV6"))
+      FunctionOutputs(9)=(ExpressionOutputId=A66C0B57419EB3CEBD6ECA8D4C32320A,Output=(OutputName="UV7"))
+      MaterialExpressionEditorX=-3900
+      MaterialExpressionEditorY=-940
+      MaterialExpressionGuid=D2C0DC8D4415980D7922DABDB645BF57
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Outputs(0)=(OutputName="World Space Normals XYZ")
+      Outputs(1)=(OutputName="XY Flat Top Projection World Space Normals")
+      Outputs(2)=(OutputName="XY Projection World Space Normals")
+      Outputs(3)=(OutputName="Z Projection World Space Normals")
+      Outputs(4)=(OutputName="UV2")
+      Outputs(5)=(OutputName="UV3")
+      Outputs(6)=(OutputName="UV4")
+      Outputs(7)=(OutputName="UV5")
+      Outputs(8)=(OutputName="UV6")
+      Outputs(9)=(OutputName="UV7")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_27"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/HeightLerpWithTwoHeightMaps.HeightLerpWithTwoHeightMaps'"
+      FunctionInputs(0)=(ExpressionInputId=522930F442483EA49A2C159D365AD20A,Input=(OutputIndex=-1,InputName="Diffuse 1"))
+      FunctionInputs(1)=(ExpressionInputId=DCC75A8E43017C3B1AF2AD94F32E13C5,Input=(OutputIndex=-1,InputName="Diffuse 2"))
+      FunctionInputs(2)=(ExpressionInputId=7AB68F0841F03075F06D038ED7950EBE,Input=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_29'",InputName="Transistion Phase"))
+      FunctionInputs(3)=(ExpressionInputId=2D66D8C24B09717A97E8BEA535A4BDC8,Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_25'",OutputIndex=3,InputName="Height Texture 1"))
+      FunctionInputs(4)=(ExpressionInputId=17F4DD0A463E03CF5075BD9CF00386FB,Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_20'",InputName="Height Texture 2"))
+      FunctionInputs(5)=(ExpressionInputId=25E63B0149C87485647617BC60B64B95,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_8'",InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=DB6322FA4F561176DCDD2DA917597668,Output=(OutputName="Results"))
+      FunctionOutputs(1)=(ExpressionOutputId=BD30F3BD4F03EC073582C193699130FD,Output=(OutputName="Alpha"))
+      FunctionOutputs(2)=(ExpressionOutputId=D985320A43D35E6B187D16931DD224EF,Output=(OutputName="Lerp Alpha No Contrast"))
+      FunctionOutputs(3)=(ExpressionOutputId=68309BBE489F69CA3EB7D3913E941321,Output=(OutputName="Resulting Height Map"))
+      MaterialExpressionEditorX=-4210
+      MaterialExpressionEditorY=952
+      MaterialExpressionGuid=889328294C903C0D50B1CD8C601448E1
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Outputs(0)=(OutputName="Results")
+      Outputs(1)=(OutputName="Alpha")
+      Outputs(2)=(OutputName="Lerp Alpha No Contrast")
+      Outputs(3)=(OutputName="Resulting Height Map")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_25"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/HeightLerpWithTwoHeightMaps.HeightLerpWithTwoHeightMaps'"
+      FunctionInputs(0)=(ExpressionInputId=522930F442483EA49A2C159D365AD20A,Input=(OutputIndex=-1,InputName="Diffuse 1"))
+      FunctionInputs(1)=(ExpressionInputId=DCC75A8E43017C3B1AF2AD94F32E13C5,Input=(OutputIndex=-1,InputName="Diffuse 2"))
+      FunctionInputs(2)=(ExpressionInputId=7AB68F0841F03075F06D038ED7950EBE,Input=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_27'",InputName="Transistion Phase"))
+      FunctionInputs(3)=(ExpressionInputId=2D66D8C24B09717A97E8BEA535A4BDC8,Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_9'",InputName="Height Texture 1"))
+      FunctionInputs(4)=(ExpressionInputId=17F4DD0A463E03CF5075BD9CF00386FB,Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_10'",InputName="Height Texture 2"))
+      FunctionInputs(5)=(ExpressionInputId=25E63B0149C87485647617BC60B64B95,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_8'",InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=DB6322FA4F561176DCDD2DA917597668,Output=(OutputName="Results"))
+      FunctionOutputs(1)=(ExpressionOutputId=BD30F3BD4F03EC073582C193699130FD,Output=(OutputName="Alpha"))
+      FunctionOutputs(2)=(ExpressionOutputId=D985320A43D35E6B187D16931DD224EF,Output=(OutputName="Lerp Alpha No Contrast"))
+      FunctionOutputs(3)=(ExpressionOutputId=68309BBE489F69CA3EB7D3913E941321,Output=(OutputName="Resulting Height Map"))
+      MaterialExpressionEditorX=-4650
+      MaterialExpressionEditorY=743
+      MaterialExpressionGuid=2F2B41F046D8D98A4B670794BFF05F6A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Outputs(0)=(OutputName="Results")
+      Outputs(1)=(OutputName="Alpha")
+      Outputs(2)=(OutputName="Lerp Alpha No Contrast")
+      Outputs(3)=(OutputName="Resulting Height Map")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast'"
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression="/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_3'",InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_6'",InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-4916
+      MaterialExpressionEditorY=1323
+      MaterialExpressionGuid=F450E5FA48E86CF242DE14AFE509BFDC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast'"
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression="/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_0'",InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_6'",InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-4920
+      MaterialExpressionEditorY=1186
+      MaterialExpressionGuid=472142C6401C9660E33C629C2082EFD6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_17"
+      A=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_16'")
+      B=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'")
+      Alpha=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_22'")
+      MaterialExpressionEditorX=-3582
+      MaterialExpressionEditorY=-1967
+      MaterialExpressionGuid=B5C725084C9200D1E8FCE5AD9B608ADF
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_16"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_16'")
+      B=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_18'")
+      Alpha=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_23'")
+      MaterialExpressionEditorX=-4108
+      MaterialExpressionEditorY=-2022
+      MaterialExpressionGuid=41898D0046C7729C20D665A2F996F41E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="side projections"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_15"
+      A=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_16'")
+      B=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_19'")
+      Alpha=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_22'")
+      MaterialExpressionEditorX=-3581
+      MaterialExpressionEditorY=-2111
+      MaterialExpressionGuid=8FFC54FC4D50E67A1C77FBB3E954A2C2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_4'")
+      Alpha=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_5'")
+      MaterialExpressionEditorX=-3236
+      MaterialExpressionEditorY=762
+      MaterialExpressionGuid=B5CC656A424B55B133EC709E183545F4
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="1 = z projection"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_2'")
+      B=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_0'")
+      Alpha=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_1'")
+      MaterialExpressionEditorX=-3406
+      MaterialExpressionEditorY=310
+      MaterialExpressionGuid=6083BF9B4FAB02AA486F25A39E8F361C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="Float3 1 = x projection"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_6"
+      OutputName="Normal XYZ Flat Top"
+      SortPriority=11
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_12'")
+      bLastPreviewed=True
+      Id=0B6CF3B648E45FEEF586EBBE8BEC96BB
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=-1938
+      MaterialExpressionGuid=E2B750194631799D84F15A92CEC439C4
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_51"
+      OutputName="Opti Normal - Custom UV 2"
+      SortPriority=21
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=4)
+      bLastPreviewed=True
+      Id=480673B44A8EE21ABCC7EFB44C5BA9BA
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=-300
+      MaterialExpressionGuid=5190CF6849A1504E7FF0AEA261A0A357
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_50"
+      OutputName="Opti Normal - Custom UV 3"
+      SortPriority=22
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=5)
+      bLastPreviewed=True
+      Id=89998CCA40D7A8B8542A198877509A79
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=-220
+      MaterialExpressionGuid=A7D0DCF743E1CF88E6FD11BDCC9CCDF0
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_5"
+      OutputName="Normal XY Texture"
+      SortPriority=12
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_13'")
+      bLastPreviewed=True
+      Id=BA0EE38C467921E777589182309A0A4F
+      MaterialExpressionEditorX=-1160
+      MaterialExpressionEditorY=-1700
+      MaterialExpressionGuid=89C6330F4F7BD410D62CD1B016C0EF81
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_49"
+      OutputName="Opti Normal - Custom UV 4"
+      SortPriority=23
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=6)
+      bLastPreviewed=True
+      Id=8A0B7ACE42952748A10660B9D8794A70
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=-140
+      MaterialExpressionGuid=26BA1DA949095C56DE2029B47C819610
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_48"
+      OutputName="Opti Normal - Custom UV 5"
+      SortPriority=24
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=7)
+      bLastPreviewed=True
+      Id=7EE6D651401D2CA7682A8B8E1878CDF7
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=45E7064B479FB369BC31D0807AB32405
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_45"
+      OutputName="Opti Normal - Custom UV 7"
+      SortPriority=26
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=9)
+      bLastPreviewed=True
+      Id=F0516F33481FE04B756C53A86111F45F
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=120
+      MaterialExpressionGuid=423E094B44A8FD927B8CC69AF60DAF3A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_44"
+      OutputName="Opti Normal - Custom UV 6"
+      SortPriority=25
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'",OutputIndex=8)
+      bLastPreviewed=True
+      Id=15F6DCB54D733F2C87D989A1006F813E
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=20
+      MaterialExpressionGuid=1DE701ED4B35CD4C042ECC8D2711FB71
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_41"
+      OutputName="-------------"
+      SortPriority=4
+      bLastPreviewed=True
+      Id=973D89AA4371E996C4D8F188B2F4BB85
+      MaterialExpressionEditorX=-5993
+      MaterialExpressionEditorY=1828
+      MaterialExpressionGuid=F5B1987345B30C422A7F22B85FEB75A9
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_4"
+      OutputName="Normal Z Texture"
+      SortPriority=13
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_14'")
+      bLastPreviewed=True
+      Id=EA3D56C1422A323CD28771BDA6F5EA35
+      MaterialExpressionEditorX=-1160
+      MaterialExpressionEditorY=-1480
+      MaterialExpressionGuid=08F1D96B452B4A28173D8CA279C6DAEB
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_3"
+      OutputName="Z Diffuse Texture"
+      SortPriority=3
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_4'")
+      bLastPreviewed=True
+      Id=DC35E13448C6765AA54072B08874BFD4
+      MaterialExpressionEditorX=-3050
+      MaterialExpressionEditorY=703
+      MaterialExpressionGuid=892BDAD94C35CDFAB9DA91BA4028F94E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_2"
+      OutputName="XY Diffuse Texture"
+      SortPriority=2
+      A=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_0'")
+      bLastPreviewed=True
+      Id=C73948F34CBC303FB1D8F3A99E6B0324
+      MaterialExpressionEditorX=-3040
+      MaterialExpressionEditorY=500
+      MaterialExpressionGuid=BA01352F469CDBDBB2FE9FA53AE25E20
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_14"
+      OutputName="Normal XYZ Texture"
+      SortPriority=10
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_11'")
+      bLastPreviewed=True
+      Id=70C13250410B403EDACB2BAD6617A1A8
+      MaterialExpressionEditorX=-1140
+      MaterialExpressionEditorY=-2180
+      MaterialExpressionGuid=C3B66E56461002B953F3D0BE4AD4F38E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_12"
+      OutputName="-------"
+      SortPriority=20
+      bLastPreviewed=True
+      Id=50766D8945B628096BE77AB2EB19E15B
+      MaterialExpressionEditorX=-2060
+      MaterialExpressionEditorY=-520
+      MaterialExpressionGuid=2F4853864967DE5932EB4D9E5690BB22
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      OutputName="XYZ Diffuse Texture"
+      SortPriority=1
+      A=(Expression="/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_1'")
+      bLastPreviewed=True
+      Id=1B6AC1E04D115FD30866E4A895261285
+      MaterialExpressionEditorX=-3060
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=751E118447F3A0EB7814FB821F0DBB55
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_8"
+      InputName="HeightLerpTransitionContrast"
+      Id=C82200B7431B09DBF04AE28B0801F7E6
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=9
+      MaterialExpressionEditorX=-4763
+      MaterialExpressionEditorY=1730
+      MaterialExpressionGuid=0D609C1D4327A953ED5356AA930BE6A0
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_7"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_1'")
+      InputName="Use Texture Alpha Heightmap to Refine the Transistion"
+      Description="Defaults to false."
+      Id=EEF106234A4017D1DDE5C7BEF65565BD
+      InputType=FunctionInput_StaticBool
+      PreviewValue=(X=1.000000,Y=0.000000,Z=0.000000,W=1.000000)
+      bUsePreviewValueAsDefault=True
+      SortPriority=8
+      MaterialExpressionEditorX=-4507
+      MaterialExpressionEditorY=1917
+      MaterialExpressionGuid=C992A2BE4A7B44AC48432F9DBCA74D66
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_6"
+      InputName="ProjectionTransitionContrast"
+      Id=D2134BC94ED09D2F619E9DBED3E550CD
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=7
+      MaterialExpressionEditorX=-5420
+      MaterialExpressionEditorY=1400
+      MaterialExpressionGuid=5AD7059E46C3FE436DE45DB34C32C221
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_4"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_0'")
+      InputName="Export Float 4"
+      Description="Default = False"
+      Id=041C58BB4D6D46D766DE40A41673ECD6
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=105
+      MaterialExpressionEditorX=-6260
+      MaterialExpressionEditorY=982
+      MaterialExpressionGuid=7A7114134F28A0DE708F8CAC7596914B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_30"
+      Preview=(Expression="/Script/Engine.MaterialExpressionTextureObject'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureObject_3'")
+      InputName="NormalTextureObject"
+      Id=D5C1ABEC4D42F95D373E598D1CCBF61E
+      InputType=FunctionInput_Texture2D
+      bUsePreviewValueAsDefault=True
+      SortPriority=30
+      MaterialExpressionEditorX=-5996
+      MaterialExpressionEditorY=-2008
+      MaterialExpressionGuid=C504229A416811FA92BC9A9240EEB46D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_3"
+      Preview=(Expression="/Script/Engine.MaterialExpressionWorldPosition'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionWorldPosition_0'")
+      InputName="WorldPosition"
+      Id=F9CEA7574004FF6704D0C5B341DB8F50
+      bUsePreviewValueAsDefault=True
+      SortPriority=200
+      MaterialExpressionEditorX=-8022
+      MaterialExpressionEditorY=-53
+      MaterialExpressionGuid=E572F21843D733B4D1DDCE9E37C83DAC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_28"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_6'")
+      InputName="World Space Normals"
+      Description="This switch defaults to true. If left true ensure that tangent space normals is turned off in the shaders properties panel.   . "
+      Id=9644AA934E5BCE5F8814D1A389946534
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=31
+      MaterialExpressionEditorX=-3360
+      MaterialExpressionEditorY=-1500
+      MaterialExpressionGuid=E2D72A9B4D33DF3DD62E5B8079BD8835
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_24"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_8'")
+      InputName="UseHighQualityNormals"
+      Description="This switch defaults to true"
+      Id=CE727F7E440BE2214442568640A8E281
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=31
+      MaterialExpressionEditorX=-2100
+      MaterialExpressionEditorY=-760
+      MaterialExpressionGuid=AEBDF34344555FB86B7141BCB2C9DDAE
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_23"
+      InputName="TheDiffuseHeightChannel"
+      Description="(If pick the diffuse height channel == true)  (1,0,0,0) will use the diffuse red channel as the height map. (0,1,0,0) will use the green channel etc."
+      Id=BFFCB4454E28F53FCB83F0ACCF4E09CA
+      InputType=FunctionInput_Vector4
+      bUsePreviewValueAsDefault=True
+      SortPriority=9
+      MaterialExpressionEditorX=-6006
+      MaterialExpressionEditorY=602
+      MaterialExpressionGuid=96927D5641FC32814D5DB2BF1968C8C3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_22"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_9'")
+      InputName="OptimizeHighQualityNormals (see comment)"
+      Description="This switch defaults to false. This switch moves several operations out of the pixel shader and into the vertex shader. Which should be faster to run in most cases.  Enable high quality normals and connect all of the UV outputs. from this function to the corresponding custom uv inputs on the base shader. Multiple world aligned normal functions can use this technique at the same time. Only one node needs to connect to the uv inputs.       "
+      Id=E81D721F4C562E21A7378C84CBA93848
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=31
+      MaterialExpressionEditorX=-4540
+      MaterialExpressionEditorY=-700
+      MaterialExpressionGuid=DE7CC4DE48BA1850CA239BAB9AB725A9
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_21"
+      InputName="    -------------"
+      Description="-------------"
+      Id=408CFBC7425CC07162D9E996141B1039
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=10
+      MaterialExpressionEditorX=-7965
+      MaterialExpressionEditorY=653
+      MaterialExpressionGuid=DD44D9E24C1D39E9C769B087E8742AD0
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_20"
+      InputName="      -------------"
+      Description="-------------"
+      Id=815FB2AF44D1A7D4D743A6A966EC8030
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=5
+      MaterialExpressionEditorX=-6000
+      MaterialExpressionEditorY=2060
+      MaterialExpressionGuid=0240332E4ADFAA58C66D96B3EE895014
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_2"
+      Preview=(Expression="/Script/Engine.MaterialExpressionVertexNormalWS'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionVertexNormalWS_0'")
+      InputName="World Space Normal"
+      Id=ABB498D643904DF08C37A0B911766DDB
+      PreviewValue=(X=0.000000,Y=0.000000,Z=1.000000,W=1.000000)
+      bUsePreviewValueAsDefault=True
+      SortPriority=201
+      MaterialExpressionEditorX=-5683
+      MaterialExpressionEditorY=1210
+      MaterialExpressionGuid=973DC1094A27D499FEF5688E628C74B9
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_19"
+      InputName="  -------------"
+      Description="-------------"
+      Id=675929B945874DF298EA50986E99EA65
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=104
+      MaterialExpressionEditorX=-5902
+      MaterialExpressionEditorY=2338
+      MaterialExpressionGuid=CD7AF5684F51EB26C2CFD78B7C1BB45B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_18"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_3'")
+      InputName="PickTheDiffuseHeightChannel"
+      Description="Default = False"
+      Id=7CB63A7749CFD0CA2FB2A0A0FD49FE07
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=9
+      MaterialExpressionEditorX=-6008
+      MaterialExpressionEditorY=563
+      MaterialExpressionGuid=7217605247F6B53C4262C7BB6F2670C4
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_16"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_4'")
+      InputName="Use seperate texture for Z projection"
+      Id=3AD427514DAB94F7529F66A41B068119
+      InputType=FunctionInput_StaticBool
+      PreviewValue=(X=64.000000,Y=64.000000,Z=64.000000,W=6.000000)
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=-7098
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=81507CB14B8FDD8BED638B9EC7D34743
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_15"
+      InputName="     -------------"
+      Description="-------------"
+      Id=6E0BCBAD4750F7AE0EB21E918EF031BD
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=199
+      MaterialExpressionEditorX=-5883
+      MaterialExpressionEditorY=2421
+      MaterialExpressionGuid=850F823649E00EF871FB9FAE1DE966B5
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_14"
+      Preview=(Expression="/Script/Engine.MaterialExpressionTextureObject'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureObject_0'")
+      InputName="Z Plane Diffuse Texture Object"
+      Id=1FE8E4CA492997F9288FC3BACD7292AB
+      InputType=FunctionInput_Texture2D
+      bUsePreviewValueAsDefault=True
+      SortPriority=4
+      MaterialExpressionEditorX=-7103
+      MaterialExpressionEditorY=908
+      MaterialExpressionGuid=ABE172F448357F696E6A5181A463DEC2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_13"
+      InputName="-------------"
+      Description="-------------"
+      Id=9D0504AD4AB53FF60B1EB3B1C11CDFAD
+      InputType=FunctionInput_StaticBool
+      bUsePreviewValueAsDefault=True
+      SortPriority=-10
+      MaterialExpressionEditorX=-6010
+      MaterialExpressionEditorY=1613
+      MaterialExpressionGuid=5258CE944E1246CAA0C506AC90BB1F55
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_12"
+      Preview=(Expression="/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_2'")
+      InputName="Use seperate settings for Z projection"
+      Id=CC7EA20A4BBCB5AEC62CC3A3DE9D5CFB
+      InputType=FunctionInput_StaticBool
+      PreviewValue=(X=64.000000,Y=64.000000,Z=64.000000,W=6.000000)
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=-7521
+      MaterialExpressionEditorY=473
+      MaterialExpressionGuid=BE40D14F402978D89A7200B5DA347898
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_10"
+      InputName="Texture Size Z projection"
+      Description="Size of texture in worldspace units"
+      Id=C25ACC1B448AE4327363679716F194C5
+      PreviewValue=(X=64.000000,Y=64.000000,Z=64.000000,W=6.000000)
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=-7883
+      MaterialExpressionEditorY=311
+      MaterialExpressionGuid=964872394A9F1A15C083AEBFE4BA8A7B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_1"
+      InputName="TextureSize"
+      Description="Size of texture in worldspace units"
+      Id=2C710AD6489D7B7213E379AD4846EBBB
+      PreviewValue=(X=64.000000,Y=64.000000,Z=64.000000,W=6.000000)
+      bUsePreviewValueAsDefault=True
+      SortPriority=-11
+      MaterialExpressionEditorX=-8165
+      MaterialExpressionEditorY=108
+      MaterialExpressionGuid=7A9364AE4E65EB30896EBB913E8A403F
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression="/Script/Engine.MaterialExpressionTextureObject'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureObject_0'")
+      InputName="Diffuse Texture Object"
+      Id=4EE64DD049AC714D089AD6AAB1BFA0C8
+      InputType=FunctionInput_Texture2D
+      bUsePreviewValueAsDefault=True
+      SortPriority=-100
+      MaterialExpressionEditorX=-7100
+      MaterialExpressionEditorY=741
+      MaterialExpressionGuid=3338177A429119249A8BBEBAE4209584
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_4"
+      A=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_7'")
+      B=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_23'")
+      MaterialExpressionEditorX=-5706
+      MaterialExpressionEditorY=686
+      MaterialExpressionGuid=9C58C3EC47FAC93782242C892DE7799D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_2"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_9'")
+      B=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_23'")
+      MaterialExpressionEditorX=-5695
+      MaterialExpressionEditorY=527
+      MaterialExpressionGuid=77F092784C94D7D3714AA68DF03E2813
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_0"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_11'")
+      B=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_23'")
+      MaterialExpressionEditorX=-5698
+      MaterialExpressionEditorY=427
+      MaterialExpressionGuid=5B787D7F4841B407C0EA0F9F0D4EC4E3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_3'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_41'")
+      MaterialExpressionEditorX=-7530
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=B396D7F342DD123787C3C2BA63FBC5E2
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_3'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_1'")
+      MaterialExpressionEditorX=-7602
+      MaterialExpressionEditorY=23
+      MaterialExpressionGuid=4FC6E9EE4675B5798E1935A913E8A17E
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_5"
+      Constant=(R=-1.000000,G=-1.000000,B=1.000000,A=0.000000)
+      MaterialExpressionEditorX=-5721
+      MaterialExpressionEditorY=-1742
+      MaterialExpressionGuid=627EB0624D3C5314A798C1B9238572C4
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_7"
+      R=1.000000
+      MaterialExpressionEditorX=-5721
+      MaterialExpressionEditorY=-1567
+      MaterialExpressionGuid=05E8010143EB4F963A34FABFAB9F6C7B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_8"
+      Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_7'")
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=-6276
+      MaterialExpressionEditorY=796
+      MaterialExpressionGuid=00B45A624125C47627B323B3FC59CA17
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_7"
+      Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'")
+      B=True
+      MaterialExpressionEditorX=-5380
+      MaterialExpressionEditorY=1260
+      MaterialExpressionGuid=A07B302447EBD4937BC386B050589359
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_5"
+      Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'")
+      R=True
+      MaterialExpressionEditorX=-5380
+      MaterialExpressionEditorY=1175
+      MaterialExpressionGuid=0EB64C384C9833FE3B883B840562C76D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_4"
+      Input=(Expression="/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_0'")
+      R=True
+      B=True
+      MaterialExpressionEditorX=-7080
+      MaterialExpressionEditorY=-20
+      MaterialExpressionGuid=A59E6CC24771B1F28D2C9F85BB16B67A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_38"
+      Input=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_43'")
+      G=True
+      MaterialExpressionEditorX=-5255
+      MaterialExpressionEditorY=-1468
+      MaterialExpressionGuid=8AED2931476A910806E2FABD51525D45
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_37"
+      Input=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_43'")
+      B=True
+      MaterialExpressionEditorX=-5253
+      MaterialExpressionEditorY=-1540
+      MaterialExpressionGuid=72D154F5461F452F5B2951BD470B3688
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_36"
+      Input=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_43'")
+      R=True
+      MaterialExpressionEditorX=-5250
+      MaterialExpressionEditorY=-1621
+      MaterialExpressionGuid=E30DD2694B7157107B6B1CBE924E9855
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_35"
+      Input=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_42'")
+      R=True
+      G=True
+      MaterialExpressionEditorX=-4686
+      MaterialExpressionEditorY=-1795
+      MaterialExpressionGuid=4ABC2AD441768B37EB3241B0AC555A63
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_29"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_2'")
+      R=True
+      MaterialExpressionEditorX=-4756
+      MaterialExpressionEditorY=1350
+      MaterialExpressionGuid=F484280441127FB0FC86E1B9CEC1C3B6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="1=+z"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_27"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_0'")
+      R=True
+      MaterialExpressionEditorX=-4758
+      MaterialExpressionEditorY=1217
+      MaterialExpressionGuid=8A544F30465AC54797954AB1B102E95D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+      Desc="1=+x"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_2"
+      Input=(Expression="/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_0'")
+      G=True
+      B=True
+      MaterialExpressionEditorX=-7083
+      MaterialExpressionEditorY=95
+      MaterialExpressionGuid=91279CAE4DD36E206FC9BB8CFDF5F6E9
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_10"
+      Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_7'")
+      A=True
+      MaterialExpressionEditorX=-6275
+      MaterialExpressionEditorY=865
+      MaterialExpressionGuid=B44B85F34B745BC0F4F3C3AF75102AF3
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression="/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_3'")
+      R=True
+      G=True
+      MaterialExpressionEditorX=-7170
+      MaterialExpressionEditorY=367
+      MaterialExpressionGuid=EAF03D60436C1B69D92F4F9E8EC953F6
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_9"
+      SizeX=1340
+      SizeY=760
+      Text="High quality normals"
+      MaterialExpressionEditorX=-4008
+      MaterialExpressionEditorY=-1173
+      MaterialExpressionGuid=5412B13C4720DE852614B2A9EAAE44FA
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=5797
+      SizeY=1906
+      Text="Diffuse"
+      MaterialExpressionEditorX=-8612
+      MaterialExpressionEditorY=-207
+      MaterialExpressionGuid=9AB81CFE4BF49B53F2848CAA741E9314
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=4422
+      SizeY=1087
+      Text="Old approach to Normals"
+      MaterialExpressionEditorX=-7090
+      MaterialExpressionEditorY=-2348
+      MaterialExpressionGuid=FE726B454165C37CE8D712A50530A5A7
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_9"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_0'",OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-5948
+      MaterialExpressionEditorY=386
+      MaterialExpressionGuid=57DD2CE4495DC313B6637C97E31F1BC8
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_2"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_9'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_9'",OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-6707
+      MaterialExpressionEditorY=885
+      MaterialExpressionGuid=67BA0E5647617B7CEA76B28A33F21512
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_19"
+      A=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_35'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_40'")
+      MaterialExpressionEditorX=-4522
+      MaterialExpressionEditorY=-1768
+      MaterialExpressionGuid=256112A8443708C309921DA8A4AF03DC
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_18"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_17'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_38'")
+      MaterialExpressionEditorX=-4396
+      MaterialExpressionEditorY=-1993
+      MaterialExpressionGuid=F48A158C4C5B547F25913AA2BE04DA4D
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_17"
+      A=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_35'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_37'")
+      MaterialExpressionEditorX=-4601
+      MaterialExpressionEditorY=-2006
+      MaterialExpressionGuid=39206FF14A464B0A1A14A29F02427E37
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_16"
+      A=(Expression="/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_15'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_34'")
+      MaterialExpressionEditorX=-4406
+      MaterialExpressionEditorY=-2192
+      MaterialExpressionGuid=B7D0463949EE65294F9AACBD29CB8D5C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_15"
+      A=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_32'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_33'")
+      MaterialExpressionEditorX=-4603
+      MaterialExpressionEditorY=-2260
+      MaterialExpressionGuid=A0037EEF4C1D9CF7416092B1ECAFD20B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_11"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_3'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_3'",OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-5913
+      MaterialExpressionEditorY=135
+      MaterialExpressionGuid=2DAC069B42D99AE2BE495AB87D52D46A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_7'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_7'",OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-6727
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=0931B34A44ADFD8CD2A35B953953550B
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAbs_8"
+      Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_1'")
+      MaterialExpressionEditorX=-8021
+      MaterialExpressionEditorY=115
+      MaterialExpressionGuid=8AF3EE9C4982C2E10DCCC499849DC110
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAbs_3"
+      Input=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_7'")
+      MaterialExpressionEditorX=-5207
+      MaterialExpressionEditorY=1263
+      MaterialExpressionGuid=52766A564153A6766EEA2F8AEA14EA8A
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="MaterialExpressionAbs_0"
+      Input=(Expression="/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_5'")
+      MaterialExpressionEditorX=-5208
+      MaterialExpressionEditorY=1170
+      MaterialExpressionGuid=F2BD535748C3157AC9E0B4A0416A2A0C
+      Function="/Script/Engine.MaterialFunction'WorldAlignedTextures_Complex_OptimizationAttempt'"
+   End Object
+   Begin Object Name="WorldAlignedTextures_Complex_OptimizationAttemptEditorOnlyData"
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_0'","/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_1'","/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_2'","/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_3'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_7'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_2'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_0'","/Script/Engine.MaterialExpressionTextureObject'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureObject_0'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_0'","/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_0'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_1'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_3'","/Script/Engine.MaterialExpressionWorldPosition'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionWorldPosition_0'","/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_0'","/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_0'","/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_0'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_5'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_0'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_2'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_3'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_4'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_2'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_3'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_9'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_11'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_0'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_2'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_4'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_4'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_0'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_27'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_29'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_6'","/Script/Engine.MaterialExpressionVertexNormalWS'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionVertexNormalWS_0'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_1'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_1'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_1'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_7'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_5'","/Script/Engine.MaterialExpressionDivide'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDivide_2'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_41'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_10'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_2'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_3'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_12'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_14'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_7'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_16'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_4'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_7'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_9'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_0'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_2'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_8'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_10'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_32'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_28'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_33'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_6'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_15'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_16'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_10'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_34'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_35'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_17'","/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_15'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_18'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_16'","/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_12'","/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_16'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_17'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_37'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_11'","/Script/Engine.MaterialExpressionLinearInterpolate'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionLinearInterpolate_17'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_17'","/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_13'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_38'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_18'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_35'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_18'","/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_14'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_30'","/Script/Engine.MaterialExpressionTextureObject'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureObject_3'","/Script/Engine.MaterialExpressionAppendVector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAppendVector_19'","/Script/Engine.MaterialExpressionTextureSample'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTextureSample_12'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_19'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_4'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_19'","/Script/Engine.MaterialExpressionNormalize'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionNormalize_15'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_40'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_20'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_42'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_5'","/Script/Engine.MaterialExpressionConstant3Vector'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionConstant3Vector_5'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_14'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_6'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_36'","/Script/Engine.MaterialExpressionMultiply'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMultiply_43'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_37'","/Script/Engine.MaterialExpressionConstant'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionConstant_7'","/Script/Engine.MaterialExpressionComponentMask'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComponentMask_38'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_22'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_23'","/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_39'","/Script/Engine.MaterialExpressionAbs'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionAbs_8'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_11'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_12'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_13'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_14'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_24'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_8'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_33'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_7'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_34'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_8'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_35'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_9'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_36'","/Script/Engine.MaterialExpressionTransform'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionTransform_10'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_8'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_13'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_19'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_21'","/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_25'","/Script/Engine.MaterialExpressionMaterialFunctionCall'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionMaterialFunctionCall_27'","/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_0'","/Script/Engine.MaterialExpressionOneMinus'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionOneMinus_2'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_41'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_15'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_20'","/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_0'","/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_2'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_18'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_23'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_9'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_10'","/Script/Engine.MaterialExpressionDotProduct'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionDotProduct_4'","/Script/Engine.MaterialExpressionStaticSwitch'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticSwitch_20'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_3'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_44'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_48'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_49'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_12'","/Script/Engine.MaterialExpressionFunctionInput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionInput_22'","/Script/Engine.MaterialExpressionStaticBool'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionStaticBool_9'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_45'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_50'","/Script/Engine.MaterialExpressionFunctionOutput'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionFunctionOutput_51'"),EditorComments=("/Script/Engine.MaterialExpressionComment'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComment_0'","/Script/Engine.MaterialExpressionComment'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComment_1'","/Script/Engine.MaterialExpressionComment'WorldAlignedTextures_Complex_OptimizationAttempt:MaterialExpressionComment_9'"))
+   End Object
+   Description="Tiles a texture in worldspace"
+   LibraryCategoriesText(1)="Texturing"
+   DependentFunctionExpressionCandidates(0)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_2'"
+   DependentFunctionExpressionCandidates(1)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0'"
+   DependentFunctionExpressionCandidates(2)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_39'"
+   DependentFunctionExpressionCandidates(3)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_25'"
+   DependentFunctionExpressionCandidates(4)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_27'"
+   EditorOnlyData="/Script/Engine.MaterialFunctionEditorOnlyData'WorldAlignedTextures_Complex_OptimizationAttemptEditorOnlyData'"
+   StateId=0D1A09F340CC25465003E6A4D43AFE95
+   CombinedInputTypes=95
+   CombinedOutputTypes=15
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_4'"
+End Object

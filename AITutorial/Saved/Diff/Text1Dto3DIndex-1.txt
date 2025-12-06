@@ -1,0 +1,228 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="1Dto3DIndex"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_97"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_108"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_119"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_118"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFmod Name="MaterialExpressionFmod_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFmod Name="MaterialExpressionFmod_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFloor Name="MaterialExpressionFloor_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFloor Name="MaterialExpressionFloor_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_57"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_46"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_45"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCeil Name="MaterialExpressionCeil_41"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCeil Name="MaterialExpressionCeil_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCeil Name="MaterialExpressionCeil_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_37"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="1Dto3DIndexEditorOnlyData"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_97"
+      A=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_26'")
+      B=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_41'")
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=4CB6CAB54309D9A1E8069FB5D5255BD4
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_108"
+      A=(Expression="/Script/Engine.MaterialExpressionFunctionInput'1Dto3DIndex:MaterialExpressionFunctionInput_14'")
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=92D43B9243AA2AA1A6A02D908F417142
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_119"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.MakeFloat3'"
+      FunctionInputs(0)=(ExpressionInputId=529C1D96441E07EB03A9E59B8A7F67B6,Input=(Expression="/Script/Engine.MaterialExpressionFmod'1Dto3DIndex:MaterialExpressionFmod_2'",InputName="X"))
+      FunctionInputs(1)=(ExpressionInputId=B5BD7D1B494F6928732CCDA1C63D8E15,Input=(Expression="/Script/Engine.MaterialExpressionFloor'1Dto3DIndex:MaterialExpressionFloor_6'",InputName="Y"))
+      FunctionInputs(2)=(ExpressionInputId=050F17B8471570B47A802CB7CAA5A201,Input=(Expression="/Script/Engine.MaterialExpressionFloor'1Dto3DIndex:MaterialExpressionFloor_7'",InputName="Z"))
+      FunctionOutputs(0)=(ExpressionOutputId=0DD6F9954C067C3E5DDBBBA0D6910DD2,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=624
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=3224FCCB4A899FE4402066ACB710D84B
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_118"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components'"
+      FunctionInputs(0)=(ExpressionInputId=0FC5C56B4335798F20CB928CF1C87421,Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'1Dto3DIndex:MaterialExpressionFunctionInput_14'",InputName="Float3"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BC893C247FCFC567178CE944E213385,Output=(OutputName="R"))
+      FunctionOutputs(1)=(ExpressionOutputId=9720C81E449DF8E5514FCB8A80FD5FA3,Output=(OutputName="G"))
+      FunctionOutputs(2)=(ExpressionOutputId=17CE6E2C4E70841B48F3D1B73828AA03,Output=(OutputName="B"))
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=B04AA30F4DDA15BEA2C6D99C393613E7
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      Outputs(0)=(OutputName="R")
+      Outputs(1)=(OutputName="G")
+      Outputs(2)=(OutputName="B")
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_25"
+      OutputName="Centered UV Position"
+      SortPriority=1
+      A=(Expression="/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_57'")
+      bLastPreviewed=True
+      Id=A4B2C20B48D322B80F2864B6AFC5E078
+      MaterialExpressionEditorX=1120
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=58D4CC2A43986F09EC1C04B74DD22FF4
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_24"
+      OutputName="3D Index"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_119'")
+      bLastPreviewed=True
+      Id=A20FFF8048A295CA2FB8F48F6B11A436
+      MaterialExpressionEditorX=960
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=58D4CC2A43986F09EC1C04B74DD22FF4
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_14"
+      InputName="Cells XYZ"
+      Id=EC5A8FC542C9CBDDB6BFECBBEFCCB08A
+      bUsePreviewValueAsDefault=True
+      SortPriority=1
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=AA2052004CD7C899925E7597B0D36E2A
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_11"
+      InputName="1D Index"
+      Id=86F1710C458AE869617E68BF5244B661
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=AA2052004CD7C899925E7597B0D36E2A
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFmod_3"
+      A=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'1Dto3DIndex:MaterialExpressionMultiply_97'")
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=9F2EFED14DD546752DB685807A226F27
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionFmod_2"
+      A=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_26'")
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=9F2EFED14DD546752DB685807A226F27
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionFloor_7"
+      Input=(Expression="/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_46'")
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=0C91ADD745119EF971F55E92F52B65E6
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionFloor_6"
+      Input=(Expression="/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_45'")
+      MaterialExpressionEditorX=368
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=0C91ADD745119EF971F55E92F52B65E6
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_57"
+      A=(Expression="/Script/Engine.MaterialExpressionAdd'1Dto3DIndex:MaterialExpressionAdd_37'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'1Dto3DIndex:MaterialExpressionMultiply_108'")
+      MaterialExpressionEditorX=960
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=02F816F34662D225BB58DCAD5596E46B
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_46"
+      A=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_0'")
+      B=(Expression="/Script/Engine.MaterialExpressionMultiply'1Dto3DIndex:MaterialExpressionMultiply_97'")
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=2A482E0A456CE9751FD31CBB7E17A4B4
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_45"
+      A=(Expression="/Script/Engine.MaterialExpressionFmod'1Dto3DIndex:MaterialExpressionFmod_3'")
+      B=(Expression="/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_26'")
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=D7918E0B4599FADD268DD38D45C4617A
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionCeil_41"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_118'",OutputIndex=1)
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=7E94071B4B659E89EF84BEB8C4F2A3D6
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionCeil_26"
+      Input=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_118'")
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=7E94071B4B659E89EF84BEB8C4F2A3D6
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionCeil_0"
+      Input=(Expression="/Script/Engine.MaterialExpressionFunctionInput'1Dto3DIndex:MaterialExpressionFunctionInput_11'")
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=1919B8E14CB8544D278518B246DCE738
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_37"
+      A=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_119'")
+      ConstB=0.500000
+      MaterialExpressionEditorX=816
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=6A6B6C5648218937644A73A726812D8C
+      Function="/Script/Engine.MaterialFunction'1Dto3DIndex'"
+   End Object
+   Begin Object Name="1Dto3DIndexEditorOnlyData"
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionFunctionOutput'1Dto3DIndex:MaterialExpressionFunctionOutput_24'","/Script/Engine.MaterialExpressionFunctionInput'1Dto3DIndex:MaterialExpressionFunctionInput_11'","/Script/Engine.MaterialExpressionFunctionInput'1Dto3DIndex:MaterialExpressionFunctionInput_14'","/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_0'","/Script/Engine.MaterialExpressionFmod'1Dto3DIndex:MaterialExpressionFmod_2'","/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_118'","/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_26'","/Script/Engine.MaterialExpressionMaterialFunctionCall'1Dto3DIndex:MaterialExpressionMaterialFunctionCall_119'","/Script/Engine.MaterialExpressionCeil'1Dto3DIndex:MaterialExpressionCeil_41'","/Script/Engine.MaterialExpressionMultiply'1Dto3DIndex:MaterialExpressionMultiply_97'","/Script/Engine.MaterialExpressionFmod'1Dto3DIndex:MaterialExpressionFmod_3'","/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_45'","/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_46'","/Script/Engine.MaterialExpressionAdd'1Dto3DIndex:MaterialExpressionAdd_37'","/Script/Engine.MaterialExpressionFunctionOutput'1Dto3DIndex:MaterialExpressionFunctionOutput_25'","/Script/Engine.MaterialExpressionFloor'1Dto3DIndex:MaterialExpressionFloor_6'","/Script/Engine.MaterialExpressionFloor'1Dto3DIndex:MaterialExpressionFloor_7'","/Script/Engine.MaterialExpressionMultiply'1Dto3DIndex:MaterialExpressionMultiply_108'","/Script/Engine.MaterialExpressionDivide'1Dto3DIndex:MaterialExpressionDivide_57'"))
+   End Object
+   Description="Converts a 2D index into a 1D index based on a given total X,Y size. For example an 8x8 grid would return cells 0-63."
+   bExposeToLibrary=True
+   LibraryCategoriesText(0)="Coordinates"
+   DependentFunctionExpressionCandidates(0)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_118'"
+   DependentFunctionExpressionCandidates(1)="/Script/Engine.MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_119'"
+   EditorOnlyData="/Script/Engine.MaterialFunctionEditorOnlyData'1Dto3DIndexEditorOnlyData'"
+   StateId=36F2C82E459764833F3DF6BF2E849D5E
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+End Object
