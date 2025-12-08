@@ -28,6 +28,8 @@ AMyPlayer::AMyPlayer()
 
 	GetCharacterMovement()->bOrientRotationToMovement = true; //fa ruotare il personaggio nella direzione del movimento
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 360.0f, 0.0f); //velocità di rotazione
+
+	bIsSprinting = false;
 }
 
 // Called when the game starts or when spawned
@@ -45,6 +47,13 @@ void AMyPlayer::Tick(float DeltaTime)
 }
 
 void AMyPlayer::MoveForward(float Value) {
+
+	forwardInput = Value;
+
+	if(Value <= 0.0f && bIsSprinting) {
+		StopSprinting();
+	}
+
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
 		const FRotator Rotation = Controller->GetControlRotation(); //ottengo la rotazione del controller
@@ -68,10 +77,15 @@ void AMyPlayer::MoveRight(float Value) {
 }
 
 void AMyPlayer::StartSprinting() {
-	GetCharacterMovement()->MaxWalkSpeed = 1200.0f; //aumenta la velocità di camminata
+
+	if(forwardInput > 0.0f) {
+		bIsSprinting = true;
+		GetCharacterMovement()->MaxWalkSpeed = 1200.0f; //aumenta la velocità di camminata
+	}
 }
 
 void AMyPlayer::StopSprinting() {
+	bIsSprinting = false;
 	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
 }
 

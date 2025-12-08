@@ -75,10 +75,27 @@ struct Z_Construct_UClass_UMyPlayerAnimInstance_Statics
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Public/MyPlayerAnimInstance.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsSprinting_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Public/MyPlayerAnimInstance.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Direction_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Public/MyPlayerAnimInstance.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_isFalling_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Public/MyPlayerAnimInstance.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OwningPlayer;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OwningPlayerMovement;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_speed;
+	static void NewProp_bIsSprinting_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsSprinting;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Direction;
+	static void NewProp_isFalling_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_isFalling;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -89,10 +106,24 @@ struct Z_Construct_UClass_UMyPlayerAnimInstance_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_OwningPlayer = { "OwningPlayer", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMyPlayerAnimInstance, OwningPlayer), Z_Construct_UClass_AMyPlayer_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OwningPlayer_MetaData), NewProp_OwningPlayer_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_OwningPlayerMovement = { "OwningPlayerMovement", nullptr, (EPropertyFlags)0x001000000008001c, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMyPlayerAnimInstance, OwningPlayerMovement), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OwningPlayerMovement_MetaData), NewProp_OwningPlayerMovement_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMyPlayerAnimInstance, speed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_speed_MetaData), NewProp_speed_MetaData) };
+void Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_bIsSprinting_SetBit(void* Obj)
+{
+	((UMyPlayerAnimInstance*)Obj)->bIsSprinting = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_bIsSprinting = { "bIsSprinting", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UMyPlayerAnimInstance), &Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_bIsSprinting_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bIsSprinting_MetaData), NewProp_bIsSprinting_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMyPlayerAnimInstance, Direction), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Direction_MetaData), NewProp_Direction_MetaData) };
+void Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_isFalling_SetBit(void* Obj)
+{
+	((UMyPlayerAnimInstance*)Obj)->isFalling = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_isFalling = { "isFalling", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UMyPlayerAnimInstance), &Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_isFalling_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_isFalling_MetaData), NewProp_isFalling_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyPlayerAnimInstance_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_OwningPlayer,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_OwningPlayerMovement,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_speed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_bIsSprinting,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_Direction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyPlayerAnimInstance_Statics::NewProp_isFalling,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UMyPlayerAnimInstance_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UMyPlayerAnimInstance_Statics::DependentSingletons[])() = {
@@ -132,10 +163,10 @@ UMyPlayerAnimInstance::~UMyPlayerAnimInstance() {}
 struct Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayerAnimInstance_h__Script_ImpetusFirstLevel_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMyPlayerAnimInstance, UMyPlayerAnimInstance::StaticClass, TEXT("UMyPlayerAnimInstance"), &Z_Registration_Info_UClass_UMyPlayerAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyPlayerAnimInstance), 315737050U) },
+		{ Z_Construct_UClass_UMyPlayerAnimInstance, UMyPlayerAnimInstance::StaticClass, TEXT("UMyPlayerAnimInstance"), &Z_Registration_Info_UClass_UMyPlayerAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyPlayerAnimInstance), 1018467133U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayerAnimInstance_h__Script_ImpetusFirstLevel_3280129991(TEXT("/Script/ImpetusFirstLevel"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayerAnimInstance_h__Script_ImpetusFirstLevel_1442871397(TEXT("/Script/ImpetusFirstLevel"),
 	Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayerAnimInstance_h__Script_ImpetusFirstLevel_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayerAnimInstance_h__Script_ImpetusFirstLevel_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -10,7 +10,6 @@ void UMyPlayerAnimInstance::NativeInitializeAnimation()
 	OwningPlayer = Cast<AMyPlayer>(TryGetPawnOwner());
 
 	if (OwningPlayer) {
-		// GetCharacterMovement restituisce un UCharacterMovementComponent
 		OwningPlayerMovement = OwningPlayer->GetCharacterMovement();
 	}
 }
@@ -19,11 +18,12 @@ void UMyPlayerAnimInstance::NativeUpdateAnimation(float DeltaSeconds) {
 
 	Super::NativeUpdateAnimation(DeltaSeconds);
 
-	// Controllo di sicurezza: se non abbiamo il player o il movimento, usciamo
 	if (!OwningPlayer || !OwningPlayerMovement) {
 		return;
 	}
 
-	// Calcolo della velocità
 	speed = UKismetMathLibrary::VSizeXY(OwningPlayerMovement->Velocity);
+
+	bIsSprinting = OwningPlayer->bIsSprinting;
+	isFalling = OwningPlayerMovement->IsFalling();
 }

@@ -24,4 +24,14 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, Category = "Movement")
 	float speed;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Movement")
+	bool bIsSprinting;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Movement")
+	float Direction;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Movement")
+	bool isFalling;
+
 };
