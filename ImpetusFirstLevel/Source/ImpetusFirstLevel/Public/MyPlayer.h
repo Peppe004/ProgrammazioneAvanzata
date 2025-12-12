@@ -31,6 +31,11 @@ protected:
 	void StartSprinting();
 	void StopSprinting();
 
+	void Attack();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Combat") //permette di implementare la funzione in blueprint
+	void OnAttack();
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -48,5 +53,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Stats")
 	float currentHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	bool bIsAttacking;
 
 };

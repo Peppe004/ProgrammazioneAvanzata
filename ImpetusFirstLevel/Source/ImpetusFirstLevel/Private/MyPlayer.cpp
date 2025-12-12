@@ -30,6 +30,7 @@ AMyPlayer::AMyPlayer()
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 360.0f, 0.0f); //velocità di rotazione
 
 	bIsSprinting = false;
+	bIsAttacking = false;
 }
 
 // Called when the game starts or when spawned
@@ -50,6 +51,8 @@ void AMyPlayer::MoveForward(float Value) {
 
 	forwardInput = Value;
 
+	if (bIsAttacking) return;
+
 	if(Value <= 0.0f && bIsSprinting) {
 		StopSprinting();
 	}
@@ -65,6 +68,8 @@ void AMyPlayer::MoveForward(float Value) {
 }
 
 void AMyPlayer::MoveRight(float Value) {
+
+	if (bIsAttacking) return;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
@@ -89,6 +94,11 @@ void AMyPlayer::StopSprinting() {
 	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
 }
 
+void AMyPlayer::Attack() {
+
+	OnAttack(); //chiamo l'evento blueprint
+}
+
 // Called to bind functionality to input
 void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -104,6 +114,7 @@ void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMyPlayer::StartSprinting);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMyPlayer::StopSprinting);
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMyPlayer::Attack);
 
 }
 

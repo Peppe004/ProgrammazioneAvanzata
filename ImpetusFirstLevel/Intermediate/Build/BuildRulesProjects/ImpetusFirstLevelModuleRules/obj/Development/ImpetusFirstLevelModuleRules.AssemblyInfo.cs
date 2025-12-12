@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImpetusFirstLevelModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e8c576d1431f8ae8fc16b679b1e8d8c837f8122")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dca7a85a3d9ad017b528f75ef450c738b12643bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImpetusFirstLevelModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImpetusFirstLevelModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
