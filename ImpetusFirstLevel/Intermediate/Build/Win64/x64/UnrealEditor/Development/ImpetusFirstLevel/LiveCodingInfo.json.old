@@ -2,10 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ImpetusFirstLevel.gen.cpp.obj": [
-			"MyGameModeBase.gen.cpp.obj",
-			"MyPlayerAnimInstance.gen.cpp.obj",
 			"ImpetusFirstLevel.init.gen.cpp.obj",
-			"MyPlayer.gen.cpp.obj"
+			"MyGameModeBase.gen.cpp.obj",
+			"MyPlayer.gen.cpp.obj",
+			"MyPlayerAnimInstance.gen.cpp.obj"
 		]
 	}
 }

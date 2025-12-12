@@ -43,4 +43,10 @@ public:
 
 	float forwardInput;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float maxHealth;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Stats")
+	float currentHealth;
+
 };

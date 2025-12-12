@@ -12,7 +12,10 @@
             "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\unrealeditor\\inc\\impetusfirstlevel\\uht\\mygamemodebase.generated.h"
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\unrealeditor\\inc\\impetusfirstlevel\\uht\\mygamemodebase.generated.h",
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\unrealeditor\\inc\\impetusfirstlevel\\uht\\myplayeraniminstance.gen.cpp",
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\source\\impetusfirstlevel\\public\\myplayeraniminstance.h",
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\unrealeditor\\inc\\impetusfirstlevel\\uht\\myplayeraniminstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
