@@ -2,6 +2,7 @@
 
 
 #include "MyPlayer.h"
+#include "MyAxe.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -37,6 +38,23 @@ AMyPlayer::AMyPlayer()
 void AMyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (AxeClass) {
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this; 
+		SpawnParams.Instigator = GetInstigator(); 
+
+		UWorld* World = GetWorld();
+
+		if (World) {
+			EquippedAxe = World->SpawnActor<AMyAxe>(AxeClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+			
+			if (EquippedAxe) {
+				FName AxeSocketName = TEXT("WeaponSocket");
+				EquippedAxe->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, AxeSocketName);
+			}
+		}
+	}
 	
 }
 

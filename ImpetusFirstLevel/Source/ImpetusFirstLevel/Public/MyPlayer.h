@@ -25,6 +25,12 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
 	class UCameraComponent* CameraComp;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Axe")
+	TSubclassOf<class AMyAxe> AxeClass; //classe dell'ascia da spawnare (tramite BP)
+
+	UPROPERTY()
+	AMyAxe* EquippedAxe; //puntatore all'ascia equipaggiata
+
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 

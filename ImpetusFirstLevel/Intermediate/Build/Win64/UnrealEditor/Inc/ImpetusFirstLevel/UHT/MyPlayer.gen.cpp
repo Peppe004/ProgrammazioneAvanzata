@@ -12,9 +12,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+IMPETUSFIRSTLEVEL_API UClass* Z_Construct_UClass_AMyAxe_NoRegister();
 IMPETUSFIRSTLEVEL_API UClass* Z_Construct_UClass_AMyPlayer();
 IMPETUSFIRSTLEVEL_API UClass* Z_Construct_UClass_AMyPlayer_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ImpetusFirstLevel();
@@ -106,6 +108,19 @@ struct Z_Construct_UClass_AMyPlayer_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MyPlayer.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AxeClass_MetaData[] = {
+		{ "Category", "Axe" },
+		{ "ModuleRelativePath", "Public/MyPlayer.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EquippedAxe_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//classe dell'ascia da spawnare (tramite BP)\n" },
+#endif
+		{ "ModuleRelativePath", "Public/MyPlayer.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "classe dell'ascia da spawnare (tramite BP)" },
+#endif
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsSprinting_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Public/MyPlayer.h" },
@@ -125,6 +140,8 @@ struct Z_Construct_UClass_AMyPlayer_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArmComp;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraComp;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_AxeClass;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_EquippedAxe;
 	static void NewProp_bIsSprinting_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsSprinting;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_maxHealth;
@@ -144,6 +161,8 @@ struct Z_Construct_UClass_AMyPlayer_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComp_MetaData), NewProp_SpringArmComp_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComp_MetaData), NewProp_CameraComp_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_AxeClass = { "AxeClass", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, AxeClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AMyAxe_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AxeClass_MetaData), NewProp_AxeClass_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_EquippedAxe = { "EquippedAxe", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, EquippedAxe), Z_Construct_UClass_AMyAxe_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EquippedAxe_MetaData), NewProp_EquippedAxe_MetaData) };
 void Z_Construct_UClass_AMyPlayer_Statics::NewProp_bIsSprinting_SetBit(void* Obj)
 {
 	((AMyPlayer*)Obj)->bIsSprinting = 1;
@@ -159,6 +178,8 @@ const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyPlayer_Static
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPlayer_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_SpringArmComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_CameraComp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_AxeClass,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_EquippedAxe,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_bIsSprinting,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_maxHealth,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_currentHealth,
@@ -201,10 +222,10 @@ AMyPlayer::~AMyPlayer() {}
 struct Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayer_h__Script_ImpetusFirstLevel_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 3114993278U) },
+		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 2623862663U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayer_h__Script_ImpetusFirstLevel_203868908(TEXT("/Script/ImpetusFirstLevel"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayer_h__Script_ImpetusFirstLevel_4099573824(TEXT("/Script/ImpetusFirstLevel"),
 	Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayer_h__Script_ImpetusFirstLevel_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyPlayer_h__Script_ImpetusFirstLevel_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\programmazioneavanzata\\impetusfirstlevel\\source\\impetusfirstlevel\\private\\myaxe.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\x64\\impetusfirstleveleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\impetusfirstlevel\\definitions.impetusfirstlevel.h",
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\source\\impetusfirstlevel\\public\\myaxe.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\programmazioneavanzata\\impetusfirstlevel\\intermediate\\build\\win64\\unrealeditor\\inc\\impetusfirstlevel\\uht\\myaxe.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

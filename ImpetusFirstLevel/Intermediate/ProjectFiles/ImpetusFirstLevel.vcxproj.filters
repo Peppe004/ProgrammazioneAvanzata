@@ -42,6 +42,9 @@
     <Filter Include="Source\ImpetusFirstLevel\Private">
       <UniqueIdentifier>{B6B87AFA-6E44-3E4C-B1DE-18F74E814325}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ImpetusFirstLevel\Private\MyAxe.cpp">
+      <Filter>Source\ImpetusFirstLevel\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ImpetusFirstLevel\Private\MyGameModeBase.cpp">
       <Filter>Source\ImpetusFirstLevel\Private</Filter>
     </ClCompile>
@@ -54,6 +57,9 @@
     <Filter Include="Source\ImpetusFirstLevel\Public">
       <UniqueIdentifier>{6A5F67C9-FB28-32D6-99B3-F05BCA500EF9}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\ImpetusFirstLevel\Public\MyAxe.h">
+      <Filter>Source\ImpetusFirstLevel\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\ImpetusFirstLevel\Public\MyGameModeBase.h">
       <Filter>Source\ImpetusFirstLevel\Public</Filter>
     </ClInclude>

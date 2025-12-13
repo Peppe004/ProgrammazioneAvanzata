@@ -5,6 +5,7 @@
 			"MyGameModeBase.gen.cpp.obj",
 			"MyPlayerAnimInstance.gen.cpp.obj",
 			"ImpetusFirstLevel.init.gen.cpp.obj",
+			"MyAxe.gen.cpp.obj",
 			"MyPlayer.gen.cpp.obj"
 		]
 	}
