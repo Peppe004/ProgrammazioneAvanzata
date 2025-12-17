@@ -3,15 +3,10 @@
 	"changelists": [
 		{
 			"guid": "00000000000000000000000000000000",
-			"description": "Changelist non controllate predefinite",
+			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/0/QY/2HPI6TLCUVXWW2DUT8GR0U.uasset",
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/D/G8/QTP5B8S05XQWEZRI4ZICMD.uasset",
 				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/BP/MyAxeBP.uasset",
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/BP/MyPlayerBP.uasset",
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/Viking/Mesh/SK_Viking_Skeleton.uasset",
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/Fab/Realistic_tree/realistic_tree.uasset",
-				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/Vegetazione/realistic_tree_FoliageType1.uasset",
+				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/B/3R/VOYOPV9FM5H7YGV5AZDQMU.uasset",
 				"D:/ProgrammazioneAvanzata/ImpetusFirstLevel/Content/__ExternalActors__/Foresta/D/TY/BAU2R5T9JB2TPFWZJ6LV9M.uasset"
 			]
 		}
