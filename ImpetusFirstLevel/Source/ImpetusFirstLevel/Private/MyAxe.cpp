@@ -28,7 +28,7 @@ void AMyAxe::BeginPlay()
 		AxeCollisionBox->SetGenerateOverlapEvents(true); // Abilita la generazione di eventi di overlap
 		AxeCollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AMyAxe::OnAxeOverlap); // Collega la funzione di callback per l'evento di overlap
 	}
-	
+
 }
 
 void AMyAxe::OnAxeOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
@@ -45,7 +45,17 @@ void AMyAxe::OnAxeOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 		return; 
 	}
 
-	if (GEngine)
+	AActor* myPlayer = GetOwner();
+
+	if (myPlayer) {
+		AMyPlayer* player = Cast<AMyPlayer>(myPlayer);
+
+		if (player) {
+			bIsAttacking = player->bIsAttacking;
+		}
+	}
+
+	if (GEngine && bIsAttacking)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Ascia ha colpito: %s"), *OtherActor->GetName()));
 	}

@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "MyPlayer.h"
 #include "MyAxe.generated.h"
 
 UCLASS()
@@ -34,5 +35,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	bool bIsAttacking;
 
 };

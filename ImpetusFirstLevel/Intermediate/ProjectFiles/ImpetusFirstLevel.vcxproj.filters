@@ -54,6 +54,9 @@
     <ClCompile Include="..\..\Source\ImpetusFirstLevel\Private\MyPlayerAnimInstance.cpp">
       <Filter>Source\ImpetusFirstLevel\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ImpetusFirstLevel\Private\MyWood.cpp">
+      <Filter>Source\ImpetusFirstLevel\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\ImpetusFirstLevel\Public">
       <UniqueIdentifier>{6A5F67C9-FB28-32D6-99B3-F05BCA500EF9}</UniqueIdentifier>
     </Filter>
@@ -67,6 +70,9 @@
       <Filter>Source\ImpetusFirstLevel\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\ImpetusFirstLevel\Public\MyPlayerAnimInstance.h">
+      <Filter>Source\ImpetusFirstLevel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ImpetusFirstLevel\Public\MyWood.h">
       <Filter>Source\ImpetusFirstLevel\Public</Filter>
     </ClInclude>
   </ItemGroup>

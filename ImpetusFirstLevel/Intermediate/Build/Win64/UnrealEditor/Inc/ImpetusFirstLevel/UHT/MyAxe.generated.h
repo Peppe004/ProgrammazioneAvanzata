@@ -21,13 +21,13 @@ class UPrimitiveComponent;
 struct FHitResult;
 
 // ********** Begin Class AMyAxe *******************************************************************
-#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnAxeOverlap);
 
 
 IMPETUSFIRSTLEVEL_API UClass* Z_Construct_UClass_AMyAxe_NoRegister();
 
-#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyAxe(); \
 	friend struct Z_Construct_UClass_AMyAxe_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AMyAxe)
 
 
-#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyAxe(AMyAxe&&) = delete; \
 	AMyAxe(const AMyAxe&) = delete; \
@@ -48,13 +48,13 @@ public: \
 	NO_API virtual ~AMyAxe();
 
 
-#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_11_PROLOG
-#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_GENERATED_BODY \
+#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_12_PROLOG
+#define FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_INCLASS_NO_PURE_DECLS \
-	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_14_ENHANCED_CONSTRUCTORS \
+	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_INCLASS_NO_PURE_DECLS \
+	FID_ProgrammazioneAvanzata_ImpetusFirstLevel_Source_ImpetusFirstLevel_Public_MyAxe_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
