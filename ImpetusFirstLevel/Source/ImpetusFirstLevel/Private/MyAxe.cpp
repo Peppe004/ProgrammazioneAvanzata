@@ -1,12 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "MyAxe.h"
 
-// Sets default values
 AMyAxe::AMyAxe()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	AxeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("AxeMesh"));
@@ -16,7 +11,6 @@ AMyAxe::AMyAxe()
 	AxeCollisionBox->SetupAttachment(AxeMesh);
 }
 
-// Called when the game starts or when spawned
 void AMyAxe::BeginPlay()
 {
 	Super::BeginPlay();
@@ -55,9 +49,29 @@ void AMyAxe::OnAxeOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 		}
 	}
 
-	if (GEngine && bIsAttacking)
+	if (!bIsAttacking) return;
+
+	// Controlliamo se il componente colpito è un Instanced Static Mesh (Foliage)
+	UInstancedStaticMeshComponent* FoliageComp = Cast<UInstancedStaticMeshComponent>(OtherComp);
+
+	if (FoliageComp && OtherBodyIndex != INDEX_NONE)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Ascia ha colpito: %s"), *OtherActor->GetName()));
+		// Prendiamo la posizione e rotazione dell'albero che stiamo per cancellare
+		FTransform InstanceTransform;
+		FoliageComp->GetInstanceTransform(OtherBodyIndex, InstanceTransform, true); // true = World Space
+
+		DrawDebugSphere(GetWorld(), InstanceTransform.GetLocation(), 50.0f, 12, FColor::Red, false, 5.0f);
+		// Cancelliamo l'albero dal foliage (così sparisce visivamente)
+		FoliageComp->RemoveInstance(OtherBodyIndex);
+
+		// Spawniamo al suo posto il substitutetreebp 
+		if (TreeActorBP)
+		{
+			GetWorld()->SpawnActor<AActor>(TreeActorBP, InstanceTransform);
+
+			if (GEngine)
+				GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Green, TEXT("Albero Foliage sostituito con Actor!"));
+		}
 	}
 }
 
