@@ -30,3 +30,17 @@ void AMyWood::Tick(float DeltaTime)
 
 }
 
+void AMyWood::OnWoodOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
+
+    if (OtherActor && (OtherActor != this) && OtherComp)
+    {
+        AInventory* inventory = Cast<AInventory>(OtherActor);
+
+        if (inventory)
+        {
+            inventory->AddItemToInventory();
+
+            Destroy();
+        }
+    }
+}
