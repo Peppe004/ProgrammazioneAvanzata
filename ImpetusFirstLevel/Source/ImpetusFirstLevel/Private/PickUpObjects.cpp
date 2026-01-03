@@ -43,16 +43,16 @@ void APickUpObjects::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* Othe
     // 1. Controllo base: Qualcosa ha toccato il legno?
     if (!OtherActor || OtherActor == this) return;
 
-    if (GEngine)
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("1. Toccato da qualcosa!"));
+    //if (GEngine)
+        //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("1. Toccato da qualcosa!"));
 
     // 2. Cerchiamo l'inventario
     UInventory* inventoryComp = OtherActor->FindComponentByClass<UInventory>();
 
     if (inventoryComp)
     {
-        if (GEngine)
-            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("2. Inventario TROVATO!"));
+        //if (GEngine)
+            //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("2. Inventario TROVATO!"));
 
         FName ItemName = "Unknown";
         if (Tags.Num() > 0) {
