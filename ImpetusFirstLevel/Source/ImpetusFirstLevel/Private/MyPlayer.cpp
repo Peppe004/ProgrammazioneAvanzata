@@ -32,6 +32,7 @@ AMyPlayer::AMyPlayer()
 
 	bIsSprinting = false;
 	bIsAttacking = false;
+	bIsThrowing = false;
 }
 
 // Called when the game starts or when spawned
@@ -69,7 +70,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 	forwardInput = Value;
 
-	if (bIsAttacking) return;
+	if (bIsAttacking || bIsThrowing) return;
 
 	if(Value <= 0.0f && bIsSprinting) {
 		StopSprinting();
@@ -87,7 +88,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 void AMyPlayer::MoveRight(float Value) {
 
-	if (bIsAttacking) return;
+	if (bIsAttacking || bIsThrowing) return;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
@@ -117,6 +118,17 @@ void AMyPlayer::Attack() {
 	OnAttack(); //chiamo l'evento blueprint
 }
 
+void AMyPlayer::ThrowRock() {
+	OnThrowRock(); //chiamo l'evento blueprint
+}
+
+void AMyPlayer::CheckJump()
+{
+	if (bIsAttacking || bIsThrowing) return;
+
+	Jump();
+}
+
 // Called to bind functionality to input
 void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -128,11 +140,12 @@ void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyPlayer::CheckJump);
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMyPlayer::StartSprinting);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMyPlayer::StopSprinting);
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMyPlayer::Attack);
+	PlayerInputComponent->BindAction("ThrowRock", IE_Pressed, this, &AMyPlayer::ThrowRock);
 
 }
 

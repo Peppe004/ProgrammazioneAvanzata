@@ -54,8 +54,13 @@ void AMyAxe::OnAxeOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 	// Controlliamo se il componente colpito è un Instanced Static Mesh (Foliage)
 	UInstancedStaticMeshComponent* FoliageComp = Cast<UInstancedStaticMeshComponent>(OtherComp);
 
-	if (FoliageComp && OtherBodyIndex != INDEX_NONE)
+	if (FoliageComp && OtherBodyIndex != INDEX_NONE && TreeMeshToDetect)
 	{
+		if(FoliageComp->GetStaticMesh() != TreeMeshToDetect)
+		{
+			return; //se ad esempio colpisco una roccia questa non viene sostituita
+		}
+
 		// Prendiamo la posizione e rotazione dell'albero che stiamo per cancellare
 		FTransform InstanceTransform;
 		FoliageComp->GetInstanceTransform(OtherBodyIndex, InstanceTransform, true); // true = World Space

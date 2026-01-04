@@ -38,9 +38,14 @@ protected:
 	void StopSprinting();
 
 	void Attack();
+	void ThrowRock();
+	void CheckJump();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat") //permette di implementare la funzione in blueprint
 	void OnAttack();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "RockThrowing")
+	void OnThrowRock();
 
 public:
 	// Called every frame
@@ -60,7 +65,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player Stats")
 	float currentHealth;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats") 
 	bool bIsAttacking;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")  
+	bool bIsThrowing;
 
 };

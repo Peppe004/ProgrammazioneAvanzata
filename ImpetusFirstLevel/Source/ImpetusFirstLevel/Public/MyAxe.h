@@ -42,6 +42,9 @@ protected:
 	// Variabile per evitare di colpire lo stesso albero mille volte in un frame
 	bool bCanHitTree;
 
+	UPROPERTY(EditAnywhere, Category = "Config")
+	UStaticMesh* TreeMeshToDetect; //è la mesh degli alberi,la uso per far sì che l'ascia sostituisca solo gli alberi
+
 public:
 	virtual void Tick(float DeltaTime) override;
 	bool bIsAttacking;
