@@ -20,6 +20,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	void AddItemToInventory(FName ItemName);
 
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void RemoveItemFromInventory(FName ItemName);
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	int32 GetNumberOfItem(FName ItemName);
+
 protected:
 	virtual void BeginPlay() override;
 

@@ -30,3 +30,27 @@ void UInventory::AddItemToInventory(FName ItemName)
 
 }
 
+void UInventory::RemoveItemFromInventory(FName ItemName) {
+
+	if (ItemName.IsNone()) return;
+
+	int32* currentCount = InventoryItems.Find(ItemName);
+	if (currentCount && *currentCount > 0) {
+		(*currentCount)--;
+		if (GEngine)
+		{
+			FString Message = FString::Printf(TEXT("Rimosso: %s | Totale: %d"), *ItemName.ToString(), *currentCount);
+			GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, Message);
+		}
+	}
+}
+
+int32 UInventory::GetNumberOfItem(FName ItemName) {
+
+	if (ItemName.IsNone()) return 0;
+
+	int32* currentCount = InventoryItems.Find(ItemName);
+
+	return currentCount ? *currentCount : 0;
+}
+

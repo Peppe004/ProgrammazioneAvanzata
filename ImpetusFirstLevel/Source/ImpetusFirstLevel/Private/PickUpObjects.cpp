@@ -40,13 +40,12 @@ void APickUpObjects::Tick(float DeltaTime)
 
 void APickUpObjects::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-    // 1. Controllo base: Qualcosa ha toccato il legno?
     if (!OtherActor || OtherActor == this) return;
 
     //if (GEngine)
         //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("1. Toccato da qualcosa!"));
 
-    // 2. Cerchiamo l'inventario
+    //Cerchiamo l'inventario
     UInventory* inventoryComp = OtherActor->FindComponentByClass<UInventory>();
 
     if (inventoryComp)
