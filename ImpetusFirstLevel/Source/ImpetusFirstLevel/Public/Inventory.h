@@ -26,6 +26,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	int32 GetNumberOfItem(FName ItemName);
 
+	//(bNext = true per successivo, false per precedente)
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	FName SwitchItem(bool bNext);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	FName CurrentEquippedItem;
+
 protected:
 	virtual void BeginPlay() override;
 

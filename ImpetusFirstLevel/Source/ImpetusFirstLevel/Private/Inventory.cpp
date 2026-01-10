@@ -54,3 +54,57 @@ int32 UInventory::GetNumberOfItem(FName ItemName) {
 	return currentCount ? *currentCount : 0;
 }
 
+FName UInventory::SwitchItem(bool bNext)
+{
+
+    if (InventoryItems.Num() == 0)
+    {
+        CurrentEquippedItem = FName(); // Nessun oggetto
+        return CurrentEquippedItem;
+    }
+
+    //Estraggo tutte le chiavi (i nomi degli oggetti) in un Array temporaneo
+    TArray<FName> ItemList;
+    InventoryItems.GetKeys(ItemList);
+
+    int32 CurrentIndex = ItemList.Find(CurrentEquippedItem);
+
+    // Se non trovo l'oggetto (o è la prima volta che apriamo l'inventario), parto da -1
+    // così al prossimo step andremo a 0 (il primo oggetto)
+    if (CurrentIndex == INDEX_NONE)
+    {
+        CurrentIndex = -1;
+    }
+
+    int32 NewIndex;
+
+    if (bNext)
+    {
+        // Se andiamo avanti: (Indice + 1) % NumeroTotale
+        // Il modulo (%) serve a tornare a 0 se superiamo l'ultimo elemento
+        NewIndex = (CurrentIndex + 1) % ItemList.Num();
+    }
+    else
+    {
+        // Se andiamo indietro
+        if (CurrentIndex - 1 < 0)
+        {
+            NewIndex = ItemList.Num() - 1; // Vai all'ultimo
+        }
+        else
+        {
+            NewIndex = CurrentIndex - 1;
+        }
+    }
+
+    CurrentEquippedItem = ItemList[NewIndex];
+
+    if (GEngine)
+    {
+        FString Message = FString::Printf(TEXT("Equipaggiato: %s"), *CurrentEquippedItem.ToString());
+        GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, Message);
+    }
+
+	return CurrentEquippedItem;
+}
+
