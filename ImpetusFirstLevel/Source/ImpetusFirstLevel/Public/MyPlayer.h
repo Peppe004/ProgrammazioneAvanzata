@@ -40,12 +40,16 @@ protected:
 	void Attack();
 	void ThrowRock();
 	void CheckJump();
+	void EatingMeat();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat") //permette di implementare la funzione in blueprint
 	void OnAttack();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "RockThrowing")
 	void OnThrowRock();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "EatingMeat")
+	void OnEatingMeat();
 
 public:
 	// Called every frame

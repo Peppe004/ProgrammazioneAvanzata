@@ -129,6 +129,11 @@ void AMyPlayer::CheckJump()
 	Jump();
 }
 
+void AMyPlayer::EatingMeat()
+{
+	OnEatingMeat(); //chiamo l'evento blueprint
+}
+
 // Called to bind functionality to input
 void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -146,6 +151,7 @@ void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMyPlayer::StopSprinting);
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMyPlayer::Attack);
 	PlayerInputComponent->BindAction("ThrowRock", IE_Pressed, this, &AMyPlayer::ThrowRock);
+	PlayerInputComponent->BindAction("EatingMeat", IE_Pressed, this, &AMyPlayer::EatingMeat);
 
 }
 
