@@ -28,7 +28,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Axe")
 	TSubclassOf<class AMyAxe> AxeClass; //classe dell'ascia da spawnare (tramite BP)
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Axe")
 	AMyAxe* EquippedAxe; //puntatore all'ascia equipaggiata
 
 	void MoveForward(float Value);
@@ -41,6 +41,7 @@ protected:
 	void ThrowRock();
 	void CheckJump();
 	void EatingMeat();
+	void CreateSword();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat") //permette di implementare la funzione in blueprint
 	void OnAttack();
@@ -50,6 +51,9 @@ protected:
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "EatingMeat")
 	void OnEatingMeat();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "CreateSword")
+    void OnCreateSword();
 
 public:
 	// Called every frame
