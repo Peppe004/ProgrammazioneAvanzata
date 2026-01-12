@@ -33,6 +33,7 @@ AMyPlayer::AMyPlayer()
 	bIsSprinting = false;
 	bIsAttacking = false;
 	bIsThrowing = false;
+	bIsDead = false;
 }
 
 // Called when the game starts or when spawned
@@ -70,7 +71,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 	forwardInput = Value;
 
-	if (bIsAttacking || bIsThrowing) return;
+	if (bIsAttacking || bIsThrowing || bIsDead) return;
 
 	if(Value <= 0.0f && bIsSprinting) {
 		StopSprinting();
@@ -88,7 +89,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 void AMyPlayer::MoveRight(float Value) {
 
-	if (bIsAttacking || bIsThrowing) return;
+	if (bIsAttacking || bIsThrowing || bIsDead) return;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
@@ -124,7 +125,7 @@ void AMyPlayer::ThrowRock() {
 
 void AMyPlayer::CheckJump()
 {
-	if (bIsAttacking || bIsThrowing) return;
+	if (bIsAttacking || bIsThrowing || bIsDead) return;
 
 	Jump();
 }

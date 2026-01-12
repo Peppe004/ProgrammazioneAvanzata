@@ -1,22 +1,21 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Inventory.generated.h"
 
+// 1. DEFINIZIONE DEL TIPO (Va bene qui, sopra la classe)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnInventoryUpdated, FName, ItemName, int32, ItemCount);
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class IMPETUSFIRSTLEVEL_API UInventory : public UActorComponent
 {
 	GENERATED_BODY()
 
-	
-
-public:	
+public:
 	UInventory();
 
+	// --- FUNZIONI ---
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	void AddItemToInventory(FName ItemName);
 
@@ -26,20 +25,23 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	int32 GetNumberOfItem(FName ItemName);
 
-	//(bNext = true per successivo, false per precedente)
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	FName SwitchItem(bool bNext);
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	// --- VARIABILI ---
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Inventory")
 	FName CurrentEquippedItem;
+
+	// 2. QUESTA E' LA PARTE CHE MANCAVA: La variabile dell'evento
+	UPROPERTY(BlueprintAssignable, Category = "Inventory")
+	FOnInventoryUpdated OnInventoryUpdated;
 
 protected:
 	virtual void BeginPlay() override;
 
 	TMap<FName, int32> InventoryItems;
 
-public:	
+public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		 
 };
