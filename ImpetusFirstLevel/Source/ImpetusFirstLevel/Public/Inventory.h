@@ -28,12 +28,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	FName SwitchItem(bool bNext);
 
-	// --- VARIABILI ---
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Inventory")
 	FName CurrentEquippedItem;
 
-	// 2. QUESTA E' LA PARTE CHE MANCAVA: La variabile dell'evento
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FOnInventoryUpdated OnInventoryUpdated;
 
