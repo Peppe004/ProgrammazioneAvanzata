@@ -118,9 +118,6 @@ FName UInventory::SwitchItem(bool bNext)
 
 	CurrentEquippedItem = ItemList[NewIndex];
 
-	// Nota: Non serve chiamare Broadcast qui perché cambiare oggetto in mano
-	// non cambia la quantità di oggetti nell'inventario (i contatori restano uguali).
-
 	if (GEngine)
 	{
 		FString Message = FString::Printf(TEXT("Equipaggiato: %s"), *CurrentEquippedItem.ToString());
@@ -129,3 +126,24 @@ FName UInventory::SwitchItem(bool bNext)
 
 	return CurrentEquippedItem;
 }
+
+void UInventory::InitializeItemAmount(FName ItemName, int32 Amount)
+{
+	if (ItemName.IsNone()) return;
+
+	// Sovrascrivi o crea l'entrata nella mappa direttamente col numero finale
+	InventoryItems.Add(ItemName, Amount);
+
+	// Aggiorna la UI una volta sola
+	if (OnInventoryUpdated.IsBound())
+	{
+		OnInventoryUpdated.Broadcast(ItemName, Amount);
+	}
+
+	if (GEngine)
+	{
+		FString Message = FString::Printf(TEXT("LOAD: %s impostato a %d"), *ItemName.ToString(), Amount);
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, Message);
+	}
+}
+

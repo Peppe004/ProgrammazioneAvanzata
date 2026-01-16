@@ -28,6 +28,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	FName SwitchItem(bool bNext);
 
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void InitializeItemAmount(FName ItemName, int32 Amount);
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Inventory")
 	FName CurrentEquippedItem;
 
