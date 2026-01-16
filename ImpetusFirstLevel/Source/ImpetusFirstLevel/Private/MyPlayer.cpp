@@ -34,13 +34,14 @@ AMyPlayer::AMyPlayer()
 	bIsAttacking = false;
 	bIsThrowing = false;
 	bIsDead = false;
+	bIsCelebratingSword = false;
 }
 
 // Called when the game starts or when spawned
 void AMyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-
+	 
 	if (AxeClass) {
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.Owner = this; 
@@ -71,7 +72,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 	forwardInput = Value;
 
-	if (bIsAttacking || bIsThrowing || bIsDead) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
 
 	if(Value <= 0.0f && bIsSprinting) {
 		StopSprinting();
@@ -89,7 +90,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 void AMyPlayer::MoveRight(float Value) {
 
-	if (bIsAttacking || bIsThrowing || bIsDead) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
@@ -125,7 +126,7 @@ void AMyPlayer::ThrowRock() {
 
 void AMyPlayer::CheckJump()
 {
-	if (bIsAttacking || bIsThrowing || bIsDead) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
 
 	Jump();
 }
