@@ -34,15 +34,15 @@ AMyPlayer::AMyPlayer()
 	bIsAttacking = false;
 	bIsThrowing = false;
 	bIsDead = false;
-	bIsCelebratingSword = false;
+	bIsCelebrating = false;
+	bIsInFirstLevel = true;
 }
 
-// Called when the game starts or when spawned
 void AMyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	 
-	if (AxeClass) {
+	if (AxeClass && bIsInFirstLevel) {
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.Owner = this; 
 		SpawnParams.Instigator = GetInstigator(); 
@@ -57,6 +57,8 @@ void AMyPlayer::BeginPlay()
 				EquippedAxe->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, AxeSocketName);
 			}
 		}
+
+		bIsInFirstLevel = false;
 	}
 	
 }
@@ -72,7 +74,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 	forwardInput = Value;
 
-	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebrating) return;
 
 	if(Value <= 0.0f && bIsSprinting) {
 		StopSprinting();
@@ -90,7 +92,7 @@ void AMyPlayer::MoveForward(float Value) {
 
 void AMyPlayer::MoveRight(float Value) {
 
-	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebrating) return;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 
@@ -126,7 +128,7 @@ void AMyPlayer::ThrowRock() {
 
 void AMyPlayer::CheckJump()
 {
-	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebratingSword) return;
+	if (bIsAttacking || bIsThrowing || bIsDead || bIsCelebrating) return;
 
 	Jump();
 }

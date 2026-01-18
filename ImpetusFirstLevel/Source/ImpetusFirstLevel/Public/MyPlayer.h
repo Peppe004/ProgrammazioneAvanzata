@@ -83,6 +83,9 @@ public:
 	bool bIsDead;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
-	bool bIsCelebratingSword;
+	bool bIsCelebrating;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Saved Data")
+	bool bIsInFirstLevel;
 
 };
