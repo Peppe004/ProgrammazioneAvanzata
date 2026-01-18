@@ -57,8 +57,6 @@ void AMyPlayer::BeginPlay()
 				EquippedAxe->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, AxeSocketName);
 			}
 		}
-
-		bIsInFirstLevel = false;
 	}
 	
 }
@@ -119,10 +117,12 @@ void AMyPlayer::StopSprinting() {
 
 void AMyPlayer::Attack() {
 
+	if (bIsDead || bIsCelebrating) return;
 	OnAttack(); //chiamo l'evento blueprint
 }
 
 void AMyPlayer::ThrowRock() {
+	if (bIsDead || bIsCelebrating) return;
 	OnThrowRock(); //chiamo l'evento blueprint
 }
 
