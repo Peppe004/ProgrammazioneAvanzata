@@ -42,23 +42,7 @@ void AMyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	 
-	if (AxeClass && bIsInFirstLevel) {
-		FActorSpawnParameters SpawnParams;
-		SpawnParams.Owner = this; 
-		SpawnParams.Instigator = GetInstigator(); 
-
-		UWorld* World = GetWorld();
-
-		if (World) {
-			EquippedAxe = World->SpawnActor<AMyAxe>(AxeClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-			
-			if (EquippedAxe) {
-				FName AxeSocketName = TEXT("WeaponSocket");
-				EquippedAxe->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, AxeSocketName);
-			}
-		}
-	}
-	
+	GetWorldTimerManager().SetTimer(TimerHandle_SpawnAxe, this, &AMyPlayer::SpawnAxeDelayed, 0.2f, false);
 }
 
 // Called every frame
@@ -66,6 +50,28 @@ void AMyPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AMyPlayer::SpawnAxeDelayed()
+{
+	if (AxeClass && bIsInFirstLevel) {
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = GetInstigator();
+
+		UWorld* World = GetWorld();
+
+		if (World) {
+			EquippedAxe = World->SpawnActor<AMyAxe>(AxeClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+
+			if (EquippedAxe) {
+				FName AxeSocketName = TEXT("WeaponSocket");
+				EquippedAxe->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, AxeSocketName);
+			}
+		}
+	}
+
+	GetWorldTimerManager().ClearTimer(TimerHandle_SpawnAxe);
 }
 
 void AMyPlayer::MoveForward(float Value) {
