@@ -43,6 +43,12 @@ protected:
 	void EatingMeat();
 	void CreateSword();
 
+	UPROPERTY()
+	FTimerHandle TimerHandle_SpawnAxe;
+
+	UFUNCTION()
+	void SpawnAxeDelayed(); 
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat") //permette di implementare la funzione in blueprint
 	void OnAttack();
 
